@@ -16,5 +16,11 @@
             "command": "extension.execute",
             "priority": 4
         }
-    ]
+    ],
+    "files.associations": {
+        "*.sqlbook": "sql",
+        "*.ndjson": "jsonl",
+        "*.dbclient-js": "javascript",
+        "uartcom.h": "c"
+    }
 }
