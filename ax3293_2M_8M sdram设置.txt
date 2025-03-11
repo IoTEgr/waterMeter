@@ -1,0 +1,12 @@
+型号驱分：
+                                 SDRAM大小
+AX3293                   8 M bytes
+AX3293B                2 M bytes
+
+SDK默认设置为8M 的SDRAM（AX3293），修改2M的SDRAM（AX3293B）,如下设置：
+1. ax32xx\ax329x.ld 文件，修改
+             sdram    : ORIGIN = 0x02000000, LENGTH = 0x00200000
+
+2.ax32xx\ax32xx_cfg.h 文件 ，修改
+             #define  AX32_PLATFORM       AX3293B
+
