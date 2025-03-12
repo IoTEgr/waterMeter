@@ -587,93 +587,54 @@ int GetimageEncodebuf(void)
 // 发第一包数据
 void send_1pack(void)
 {
-	// 新增位置信息获取
-	u16 x = configGet(CONFIG_ID_CENTER_X);
-	u16 y = configGet(CONFIG_ID_CENTER_Y);
-	u16 width = configGet(CONFIG_ID_MJPEG_W);
-	u16 height = configGet(CONFIG_ID_MJPEG_H);
+	u32 i;
+	if (uart_buff && uart_buff_len && pack_total)
+	{
+		if (pack_total > 1)
+		{
+			btcomCmdRsp(uart_buff, 1024, pack_total, 1);
+		}
+		else
+		{
+			btcomCmdRsp(uart_buff, uart_buff_len, pack_total, 1);
+		}
+#if 0
+	int fHandle = -1;
+	if(SysCtrl.sdcard == SDC_STAT_NORMAL)
+	{
+		fHandle = open("1.bin",FA_CREATE_NEW | FA_WRITE | FA_READ);
+		if(!(fHandle<0))
+		{
+			write(fHandle, uart_buff ,1024);
+			close(fHandle);
+		}
+	}
+#endif
+	}
+}
 
-	// 在包头中增加8字节位置信息
-	ImagePositionInfo posInfo = {
-		.x = htons(x),
-		.y = htons(y),
-		.width = htons(width),
-		.height = htons(height)};
+// 发第几包数据
+void send_pack(u8 N_pack)
+{
+
+	if (N_pack > pack_total)
+	{
+		return;
+	}
 
 	if (uart_buff && uart_buff_len && pack_total)
 	{
-		// 将位置信息拷贝到缓冲区头部
-		memcpy(uart_buff, &posInfo, sizeof(posInfo));
-
-		// 调整数据包长度计算（原长度+8字节头）
-		u32 payload_len = (pack_total > 1) ? 1024 : uart_buff_len;
-		btcomCmdRsp(uart_buff, payload_len + sizeof(posInfo), pack_total, 1);
+		if (N_pack == pack_total) // 最后一包
+		{
+			btcomCmdRsp(uart_buff + (N_pack - 1) * 1024, uart_buff_len - (N_pack - 1) * 1024, pack_total, N_pack);
+		}
+		else
+		{
+			btcomCmdRsp(uart_buff + (N_pack - 1) * 1024, 1024, pack_total, N_pack);
+		}
 	}
 }
-// void send_1pack(void)
-// {
-// 	u32 i;
-// 	if(uart_buff&&uart_buff_len&&pack_total)
-// 	{
-// 		if(pack_total>1)
-// 		{
-// 			btcomCmdRsp(uart_buff,1024,pack_total,1);
-// 		}
-// 		else
-// 		{
-// 			btcomCmdRsp(uart_buff,uart_buff_len,pack_total,1);
-// 		}
-// #if 0
-// 	int fHandle = -1;
-// 	if(SysCtrl.sdcard == SDC_STAT_NORMAL)
-// 	{
-// 		fHandle = open("1.bin",FA_CREATE_NEW | FA_WRITE | FA_READ);
-// 		if(!(fHandle<0))
-// 		{
-// 			write(fHandle, uart_buff ,1024);
-// 			close(fHandle);
-// 		}
-// 	}
-// #endif
 
-// 	}
-// }
-
-// 发第几包数据
-// void send_pack(u8 N_pack)
-// {
-
-// 	if (N_pack > pack_total)
-// 	{
-// 		return;
-// 	}
-
-// 	if (uart_buff && uart_buff_len && pack_total)
-// 	{
-// 		if (N_pack == pack_total) // 最后一包
-// 		{
-// 			btcomCmdRsp(uart_buff + (N_pack - 1) * 1024, uart_buff_len - (N_pack - 1) * 1024, pack_total, N_pack);
-// 		}
-// 		else
-// 		{
-// 			btcomCmdRsp(uart_buff + (N_pack - 1) * 1024, 1024, pack_total, N_pack);
-// 		}
-// 	}
-// }
-void send_pack(u8 N_pack)
-{
-	// 调整包头偏移量计算
-	u8 *payload_ptr = uart_buff + (N_pack - 1) * 1024 + sizeof(ImagePositionInfo);
-
-	if (N_pack == pack_total)
-	{
-		btcomCmdRsp(payload_ptr, uart_buff_len - (N_pack - 1) * 1024, pack_total, N_pack);
-	}
-	else
-	{
-		btcomCmdRsp(payload_ptr, 1024, pack_total, N_pack);
-	}
-}
 // 发所有数据
 void send_Allpack(void)
 {

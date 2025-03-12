@@ -8,6 +8,8 @@ static u8 PrvRxLen = 0;
 static u8 PrvRxEn;
 static uint32 tick;
 
+#define __SWAP16(x) ((u16)(((x) << 8) | ((x) >> 8)))
+
 // 所有支持的命令
 #define UART_COM_CTR_SEND_DATA 0x97 // 发送数据
 #define UART_COM_CTR_GET_DATA 0X17	// 接受发送数据命令
@@ -78,9 +80,15 @@ void btcomCmdRsp(const u8 *data, int len, u8 pack_total, u8 pack_cur)
 	u8 tail[2];
 	u32 i, j;
 
+	// 新增位置信息字段（网络字节序）
+	u16 x = __SWAP16(configGet(CONFIG_ID_CENTER_X));
+	u16 y = __SWAP16(configGet(CONFIG_ID_CENTER_Y));
+	u16 width = __SWAP16(configGet(CONFIG_ID_MJPEG_W));
+	u16 height = __SWAP16(configGet(CONFIG_ID_MJPEG_H));
+
 	int CRC_len;
 
-	CRC_len = len + 4;
+	CRC_len = len + 4 + 8;
 	// header
 	header[0] = 0x68;
 	header[1] = 0x10;
@@ -102,6 +110,15 @@ void btcomCmdRsp(const u8 *data, int len, u8 pack_total, u8 pack_cur)
 
 	header[14] = pack_total;
 	header[15] = pack_cur;
+
+	header[16] = x >> 8;		// 截取图像左上角横坐标高字节
+	header[17] = x & 0xFF;		// 截取图像左上角横坐标低字节
+	header[18] = y >> 8;		// 截取图像左上角纵坐标高字节
+	header[19] = y & 0xFF;		// 截取图像左上角纵坐标低字节
+	header[20] = width >> 8;	// 图像宽度高字节
+	header[21] = width & 0xFF;	// 图像宽度低字节
+	header[22] = height >> 8;	// 图像高度高字节
+	header[23] = height & 0xFF; // 图像高度低字节
 
 	// tail
 	tail[0] = uartCheckSum(header + 10, 6) + uartCheckSum(data, len);
