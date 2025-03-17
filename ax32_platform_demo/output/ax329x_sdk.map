@@ -442,7 +442,7 @@ LOAD C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a
                 0x00008000                usbfifo
                 0x00008ce0                __ufifo_end = .
 
-.text           0x02000000    0x4e498 load address 0x00002800
+.text           0x02000000    0x4e418 load address 0x00002800
                 0x02000000                _text_start = .
  *(.text*)
  .text          0x02000000        0x0 ./Debug/ax32xx_reset.S.o
@@ -1449,1268 +1449,1268 @@ LOAD C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a
  .text          0x02025170      0x18c ./Debug/stream_stream.c.o
                 0x02025170                streamSprintf
                 0x020252a4                streamFont
- .text          0x020252fc      0x8e8 ./Debug/uartcom_uartcom.c.o
+ .text          0x020252fc      0x86c ./Debug/uartcom_uartcom.c.o
                 0x020254d4                btcomCmdRsp
-                0x02025700                btcomCmdFail
-                0x020257c0                set_Center_Ack
-                0x02025878                set_Center
-                0x02025930                get_Center
-                0x02025a54                btcomInit
-                0x02025a84                btcomUninit
-                0x02025aac                btcomService
- .text          0x02025be4       0x3c ./Debug/uartcom_uartCrc.c.o
-                0x02025be4                uartCheckSum
- .text          0x02025c20        0x0 ./Debug/gsensor_G_gma301.c.o
- .text          0x02025c20        0x0 ./Debug/gsensor_gsensor.c.o
- .text          0x02025c20        0x0 ./Debug/gsensor_G_sc7a30e.c.o
- .text          0x02025c20        0x0 ./Debug/gsensor_g_da380.c.o
- .text          0x02025c20      0x8b4 ./Debug/cmos_sensor_cmos_sensor.c.o
-                0x02025c20                sensor_iic_enable
-                0x02025c40                sensor_iic_disable
-                0x02025c54                sensor_iic_write
-                0x02025cd0                sensor_iic_read
-                0x02025d60                sensor_iic_info
-                0x02025da4                SensorGetName
-                0x02025dd8                sensorInit
-                0x0202619c                uart_to_iic
-                0x020263a4                sensor_get_w
-                0x020263d4                sensor_get_h
-                0x02026404                Sensor_DebugRegister
-                0x02026470                usb_cut_raw
-                0x02026484                Sensor_common_Get
-                0x02026498                Sensor_common_Set
-                0x020264ac                isp_debug_write
-                0x020264c0                isp_debug_read
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_BF3a03.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_BF2013.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_BF3016.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_BF3703.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_GC0307.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_GC0308.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_GC0309.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_GC0328.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_GC1004.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_H42.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_H7640.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_HM1055.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_IT03A1.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_NT99141.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_NT99142.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_OV7670.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_OV7725.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_OV9710.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_OV9732.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_SC1045.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_SIV100B.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_SIV120B.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_SIV121DS.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_SP1409.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_H62.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_GC1034.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_OV7736.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_SP140A.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_GC1054.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_GC1064.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_H65.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_SC1243.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SNESOR_FPX1002.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_H63P.c.o
- .text          0x020264d4        0x0 ./Debug/cmos_sensor_SENSOR_BF20A6.c.o
- .text          0x020264d4        0x0 ./Debug/tft_lcd_lcd_mcu_st7789.c.o
- .text          0x020264d4        0x0 ./Debug/tft_lcd_lcd_rgb_jl_lcd.c.o
- .text          0x020264d4        0x0 ./Debug/tft_lcd_lcd_rgb_st7282.c.o
- .text          0x020264d4        0x0 ./Debug/tft_lcd_tft_lcd.c.o
- .text          0x020264d4        0x0 ./Debug/tft_lcd_lcd_mcu_5420.c.o
- .text          0x020264d4        0x0 ./Debug/tft_lcd_lcd_mcu_r61509v.c.o
- .text          0x020264d4        0x0 ./Debug/tft_lcd_lcd_rgb_ili8961.c.o
- .text          0x020264d4        0x0 ./Debug/tft_lcd_lcd_rgb_ili9342c.c.o
- .text          0x020264d4        0x0 ./Debug/tft_lcd_lcd_mcu_ili9328.c.o
- .text          0x020264d4        0x0 ./Debug/tft_lcd_lcd_mcu_hx8352b.c.o
- .text          0x020264d4        0x0 ./Debug/tft_lcd_lcd_mcu_st7789v.c.o
- .text          0x020264d4        0x0 ./Debug/tft_lcd_lcd_mcu_hx8352c.c.o
- .text          0x020264d4        0x0 ./Debug/tft_lcd_lcd_mcu_hx8357b.c.o
- .text          0x020264d4        0x0 ./Debug/tft_lcd_lcd_rgb_ili9806e.c.o
- .text          0x020264d4        0x0 ./Debug/tft_lcd_lcd_rgb_ota5182.c.o
- .text          0x020264d4        0x0 ./Debug/tft_lcd_lcd_rgb_st7701.c.o
- .text          0x020264d4        0x0 ./Debug/tft_lcd_lcd_mcu_lgdp4532.c.o
- .text          0x020264d4        0x0 ./Debug/tft_lcd_lcd_mcu_9225G.c.o
- .text          0x020264d4        0x0 ./Debug/usensor_237a_1.c.o
- .text          0x020264d4        0x0 ./Debug/usensor_usensor.c.o
- .text          0x020264d4        0x0 ./Debug/usensor_237a_2.c.o
- .text          0x020264d4      0x318 ./Debug/nvfs_nvfs.c.o
-                0x020264d4                nv_port_read
-                0x020264f4                nv_init
-                0x02026618                nv_uninit
-                0x02026630                nv_configAddr
-                0x020266a8                nv_open
-                0x0202673c                nv_size
-                0x020267bc                nv_read
- .text          0x020267ec       0xe4 ./Debug/res_ascii.c.o
-                0x020267ec                ascii_draw_get
- .text          0x020268d0        0x0 ./Debug/res_ascii_default.c.o
- .text          0x020268d0       0xc0 ./Debug/res_ascii_default_draw.c.o
-                0x020268d0                ascii_default_get
- .text          0x02026990        0x0 ./Debug/res_ascii_num2.c.o
- .text          0x02026990       0xc0 ./Debug/res_ascii_num2_draw.c.o
-                0x02026990                ascii_num2_get
- .text          0x02026a50        0x0 ./Debug/res_ascii_num3.c.o
- .text          0x02026a50       0xc0 ./Debug/res_ascii_num3_draw.c.o
-                0x02026a50                ascii_num3_get
- .text          0x02026b10        0x0 ./Debug/res_ascii_num4.c.o
- .text          0x02026b10        0x0 ./Debug/res_ascii_num4_draw.c.o
- .text          0x02026b10       0xec ./Debug/res_R.c.o
-                0x02026b10                R_loadResource
-                0x02026b24                R_getData
-                0x02026b38                R_freeData
-                0x02026b4c                R_getSize
-                0x02026b60                R_getDataAndSize
-                0x02026b74                R_getTColor
-                0x02026b8c                R_getAsciiCharSize
-                0x02026ba4                R_getAsciiStringSize
-                0x02026bbc                R_drawAsciiChar
-                0x02026bd0                R_drawAsciiChar_border
-                0x02026be4                R_drawAsciiString
- .text          0x02026bfc      0x60c ../bwlib\libavi.a(aviEncoder.o)
-                0x02026bfc                aviEncodeInit
-                0x02026cf4                aviEncodeUninit
-                0x02026da0                aviEncodeParse
-                0x02026e2c                aviEncodeAddIdx
-                0x02026eb0                aviEncodeSetIdx1
-                0x02026f38                aviEncodeFrameTag
-                0x02026fa4                aviEncodeAddOffset
-                0x02026ffc                aviEncodeGetIdx1Length
-                0x02027048                aviEncodeGetFrameCount
-                0x02027094                aviEncodeEnd
-                0x02027110                aviEncodeService
-                0x0202718c                aviEncodeAddofs
- .text          0x02027208      0x554 ../bwlib\libavi.a(encoder_std.o)
-                0x02027250                avi_standardAddIndex
-                0x02027430                avi_standardEnd
- .text          0x0202775c     0x1680 ../bwlib\libavi.a(encoder_odml.o)
-                0x02028d84                avi_odmlAddoffset
- .text          0x02028ddc      0x778 ../bwlib\libfs.a(fs.o)
-                0x02028ddc                fs_nodeinit
-                0x02028e2c                fs_mount
-                0x02028e8c                open
-                0x02028f54                close
-                0x02028fcc                read
-                0x02029044                write
-                0x020290bc                lseek
-                0x02029140                fs_readsector
-                0x020291c0                fs_writesector
-                0x02029240                fs_getsector
-                0x020292e8                fs_getclustersize
-                0x0202930c                fs_getcluster
-                0x02029380                fs_size
-                0x020293cc                fs_size2
-                0x02029418                fs_free_size
-                0x02029468                fs_fastseek_init
-                0x02029480                fs_merge
-                0x02029498                fs_bound
-                0x020294b0                fs_tell
-                0x020294fc                fs_sync
- .text          0x02029554      0x250 ../bwlib\libfs.a(diskio.o)
-                0x02029554                get_fattime
-                0x020295cc                fs_init
-                0x02029648                disk_status
-                0x02029688                disk_initialize
-                0x020296c4                disk_read
-                0x02029700                disk_write
-                0x0202973c                disk_ioctl
- .text          0x020297a4       0xd0 ../bwlib\libfs.a(link_ext.o)
-                0x020297a4                f_unlink_removeDir
-                0x020297bc                f_unlink_removeChain
-                0x020297d4                removeChainInit
-                0x020297e8                put_removeChain
-                0x020297fc                removeChainCheck
-                0x02029814                get_removeChain
-                0x0202982c                f_unlink_ext_init
-                0x02029844                f_unlink_ext_service
-                0x0202985c                f_unlink_ext
- .text          0x02029874     0x77b0 ../bwlib\libfs.a(ff.o)
-                0x0202b5c0                clst2sect
-                0x0202d744                f_mount
-                0x0202d7f4                f_open
-                0x0202dcc4                f_read
-                0x0202dfbc                f_write
-                0x0202e33c                f_sync
-                0x0202e5bc                f_close
-                0x0202e608                f_lseek
-                0x0202ea70                f_opendir
-                0x0202eba0                f_closedir
-                0x0202ebdc                f_readdir
-                0x0202ec80                f_seekdir
-                0x0202ed1c                f_findnext
-                0x0202edc0                f_findfirst
-                0x0202ee14                f_stat
-                0x0202ee9c                f_getfree
-                0x0202f108                f_truncate
-                0x0202f284                f_unlink
-                0x0202f400                f_mkdir
-                0x0202f68c                f_rename
-                0x0202f96c                f_chmod
-                0x0202fa54                f_utime
-                0x0202fb38                f_mkfs
-                0x02030fac                elm_get_vol
-                0x02030fec                FEX_getlink_clust
- .text          0x02031024      0x2a0 ../bwlib\libfs.a(ffunicode.o)
-                0x02031024                ff_uni2oem
-                0x020310f4                ff_oem2uni
-                0x0203119c                ff_wtoupper
- .text          0x020312c4      0x708 ../bwlib\libsd.a(ax32xx_sd.o)
-                0x020312c4                ax32xx_sd0Init
-                0x02031418                ax32xx_sd0Uninit
-                0x02031484                ax32xx_sd0SendCmd
-                0x020315d0                ax32xx_sd0BusSet
-                0x02031614                ax32xx_sd0Recv
-                0x02031668                ax32xx_sd0Send
-                0x020316a0                ax32xx_sd0WaitDAT0
-                0x02031730                ax32xx_sd0WaitPend
-                0x020317a4                ax32xx_sd0GetRsp
-                0x020317c0                ax32xx_sdCRCCheck
-                0x02031820                ax32xx_sd0Buffer
-                0x0203183c                ax32xx_sdSetFunc
-                0x02031920                ax32xx_sd0ClkSet
- .text          0x020319cc       0xb0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-memcmp.o)
-                0x020319cc                memcmp
- .text          0x02031a7c      0x158 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-memcpy.o)
-                0x02031a7c                memcpy
- .text          0x02031bd4      0x15c C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-memset.o)
-                0x02031bd4                memset
- .text          0x02031d30       0xb8 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strcat.o)
-                0x02031d30                strcat
- .text          0x02031de8      0x1fc C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strchr.o)
-                0x02031de8                strchr
- .text          0x02031fe4      0x104 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strcmp.o)
-                0x02031fe4                strcmp
- .text          0x020320e8       0xc0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strcpy.o)
-                0x020320e8                strcpy
- .text          0x020321a8       0xe4 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strlen.o)
-                0x020321a8                strlen
- .text          0x0203228c      0x178 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strncmp.o)
-                0x0203228c                strncmp
- .text          0x02032404      0x7d0 C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a(_udivdi3.o)
-                0x02032404                __udivdi3
- .text          0x02032bd4       0xf4 C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a(__udivsi3.o)
-                0x02032bd4                __udivsi3
-                0x02032bd4                __udivsi3_internal
- .text          0x02032cc8       0x1c C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a(__umodsi3.o)
-                0x02032cc8                __umodsi3
- .text          0x02032ce4        0x0 C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a(_clz.o)
+                0x02025684                btcomCmdFail
+                0x02025744                set_Center_Ack
+                0x020257fc                set_Center
+                0x020258b4                get_Center
+                0x020259d8                btcomInit
+                0x02025a08                btcomUninit
+                0x02025a30                btcomService
+ .text          0x02025b68       0x3c ./Debug/uartcom_uartCrc.c.o
+                0x02025b68                uartCheckSum
+ .text          0x02025ba4        0x0 ./Debug/gsensor_G_gma301.c.o
+ .text          0x02025ba4        0x0 ./Debug/gsensor_gsensor.c.o
+ .text          0x02025ba4        0x0 ./Debug/gsensor_G_sc7a30e.c.o
+ .text          0x02025ba4        0x0 ./Debug/gsensor_g_da380.c.o
+ .text          0x02025ba4      0x8b4 ./Debug/cmos_sensor_cmos_sensor.c.o
+                0x02025ba4                sensor_iic_enable
+                0x02025bc4                sensor_iic_disable
+                0x02025bd8                sensor_iic_write
+                0x02025c54                sensor_iic_read
+                0x02025ce4                sensor_iic_info
+                0x02025d28                SensorGetName
+                0x02025d5c                sensorInit
+                0x02026120                uart_to_iic
+                0x02026328                sensor_get_w
+                0x02026358                sensor_get_h
+                0x02026388                Sensor_DebugRegister
+                0x020263f4                usb_cut_raw
+                0x02026408                Sensor_common_Get
+                0x0202641c                Sensor_common_Set
+                0x02026430                isp_debug_write
+                0x02026444                isp_debug_read
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_BF3a03.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_BF2013.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_BF3016.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_BF3703.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_GC0307.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_GC0308.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_GC0309.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_GC0328.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_GC1004.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_H42.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_H7640.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_HM1055.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_IT03A1.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_NT99141.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_NT99142.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_OV7670.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_OV7725.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_OV9710.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_OV9732.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_SC1045.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_SIV100B.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_SIV120B.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_SIV121DS.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_SP1409.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_H62.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_GC1034.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_OV7736.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_SP140A.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_GC1054.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_GC1064.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_H65.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_SC1243.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SNESOR_FPX1002.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_H63P.c.o
+ .text          0x02026458        0x0 ./Debug/cmos_sensor_SENSOR_BF20A6.c.o
+ .text          0x02026458        0x0 ./Debug/tft_lcd_lcd_mcu_st7789.c.o
+ .text          0x02026458        0x0 ./Debug/tft_lcd_lcd_rgb_jl_lcd.c.o
+ .text          0x02026458        0x0 ./Debug/tft_lcd_lcd_rgb_st7282.c.o
+ .text          0x02026458        0x0 ./Debug/tft_lcd_tft_lcd.c.o
+ .text          0x02026458        0x0 ./Debug/tft_lcd_lcd_mcu_5420.c.o
+ .text          0x02026458        0x0 ./Debug/tft_lcd_lcd_mcu_r61509v.c.o
+ .text          0x02026458        0x0 ./Debug/tft_lcd_lcd_rgb_ili8961.c.o
+ .text          0x02026458        0x0 ./Debug/tft_lcd_lcd_rgb_ili9342c.c.o
+ .text          0x02026458        0x0 ./Debug/tft_lcd_lcd_mcu_ili9328.c.o
+ .text          0x02026458        0x0 ./Debug/tft_lcd_lcd_mcu_hx8352b.c.o
+ .text          0x02026458        0x0 ./Debug/tft_lcd_lcd_mcu_st7789v.c.o
+ .text          0x02026458        0x0 ./Debug/tft_lcd_lcd_mcu_hx8352c.c.o
+ .text          0x02026458        0x0 ./Debug/tft_lcd_lcd_mcu_hx8357b.c.o
+ .text          0x02026458        0x0 ./Debug/tft_lcd_lcd_rgb_ili9806e.c.o
+ .text          0x02026458        0x0 ./Debug/tft_lcd_lcd_rgb_ota5182.c.o
+ .text          0x02026458        0x0 ./Debug/tft_lcd_lcd_rgb_st7701.c.o
+ .text          0x02026458        0x0 ./Debug/tft_lcd_lcd_mcu_lgdp4532.c.o
+ .text          0x02026458        0x0 ./Debug/tft_lcd_lcd_mcu_9225G.c.o
+ .text          0x02026458        0x0 ./Debug/usensor_237a_1.c.o
+ .text          0x02026458        0x0 ./Debug/usensor_usensor.c.o
+ .text          0x02026458        0x0 ./Debug/usensor_237a_2.c.o
+ .text          0x02026458      0x318 ./Debug/nvfs_nvfs.c.o
+                0x02026458                nv_port_read
+                0x02026478                nv_init
+                0x0202659c                nv_uninit
+                0x020265b4                nv_configAddr
+                0x0202662c                nv_open
+                0x020266c0                nv_size
+                0x02026740                nv_read
+ .text          0x02026770       0xe4 ./Debug/res_ascii.c.o
+                0x02026770                ascii_draw_get
+ .text          0x02026854        0x0 ./Debug/res_ascii_default.c.o
+ .text          0x02026854       0xc0 ./Debug/res_ascii_default_draw.c.o
+                0x02026854                ascii_default_get
+ .text          0x02026914        0x0 ./Debug/res_ascii_num2.c.o
+ .text          0x02026914       0xc0 ./Debug/res_ascii_num2_draw.c.o
+                0x02026914                ascii_num2_get
+ .text          0x020269d4        0x0 ./Debug/res_ascii_num3.c.o
+ .text          0x020269d4       0xc0 ./Debug/res_ascii_num3_draw.c.o
+                0x020269d4                ascii_num3_get
+ .text          0x02026a94        0x0 ./Debug/res_ascii_num4.c.o
+ .text          0x02026a94        0x0 ./Debug/res_ascii_num4_draw.c.o
+ .text          0x02026a94       0xec ./Debug/res_R.c.o
+                0x02026a94                R_loadResource
+                0x02026aa8                R_getData
+                0x02026abc                R_freeData
+                0x02026ad0                R_getSize
+                0x02026ae4                R_getDataAndSize
+                0x02026af8                R_getTColor
+                0x02026b10                R_getAsciiCharSize
+                0x02026b28                R_getAsciiStringSize
+                0x02026b40                R_drawAsciiChar
+                0x02026b54                R_drawAsciiChar_border
+                0x02026b68                R_drawAsciiString
+ .text          0x02026b80      0x60c ../bwlib\libavi.a(aviEncoder.o)
+                0x02026b80                aviEncodeInit
+                0x02026c78                aviEncodeUninit
+                0x02026d24                aviEncodeParse
+                0x02026db0                aviEncodeAddIdx
+                0x02026e34                aviEncodeSetIdx1
+                0x02026ebc                aviEncodeFrameTag
+                0x02026f28                aviEncodeAddOffset
+                0x02026f80                aviEncodeGetIdx1Length
+                0x02026fcc                aviEncodeGetFrameCount
+                0x02027018                aviEncodeEnd
+                0x02027094                aviEncodeService
+                0x02027110                aviEncodeAddofs
+ .text          0x0202718c      0x554 ../bwlib\libavi.a(encoder_std.o)
+                0x020271d4                avi_standardAddIndex
+                0x020273b4                avi_standardEnd
+ .text          0x020276e0     0x1680 ../bwlib\libavi.a(encoder_odml.o)
+                0x02028d08                avi_odmlAddoffset
+ .text          0x02028d60      0x778 ../bwlib\libfs.a(fs.o)
+                0x02028d60                fs_nodeinit
+                0x02028db0                fs_mount
+                0x02028e10                open
+                0x02028ed8                close
+                0x02028f50                read
+                0x02028fc8                write
+                0x02029040                lseek
+                0x020290c4                fs_readsector
+                0x02029144                fs_writesector
+                0x020291c4                fs_getsector
+                0x0202926c                fs_getclustersize
+                0x02029290                fs_getcluster
+                0x02029304                fs_size
+                0x02029350                fs_size2
+                0x0202939c                fs_free_size
+                0x020293ec                fs_fastseek_init
+                0x02029404                fs_merge
+                0x0202941c                fs_bound
+                0x02029434                fs_tell
+                0x02029480                fs_sync
+ .text          0x020294d8      0x250 ../bwlib\libfs.a(diskio.o)
+                0x020294d8                get_fattime
+                0x02029550                fs_init
+                0x020295cc                disk_status
+                0x0202960c                disk_initialize
+                0x02029648                disk_read
+                0x02029684                disk_write
+                0x020296c0                disk_ioctl
+ .text          0x02029728       0xd0 ../bwlib\libfs.a(link_ext.o)
+                0x02029728                f_unlink_removeDir
+                0x02029740                f_unlink_removeChain
+                0x02029758                removeChainInit
+                0x0202976c                put_removeChain
+                0x02029780                removeChainCheck
+                0x02029798                get_removeChain
+                0x020297b0                f_unlink_ext_init
+                0x020297c8                f_unlink_ext_service
+                0x020297e0                f_unlink_ext
+ .text          0x020297f8     0x77b0 ../bwlib\libfs.a(ff.o)
+                0x0202b544                clst2sect
+                0x0202d6c8                f_mount
+                0x0202d778                f_open
+                0x0202dc48                f_read
+                0x0202df40                f_write
+                0x0202e2c0                f_sync
+                0x0202e540                f_close
+                0x0202e58c                f_lseek
+                0x0202e9f4                f_opendir
+                0x0202eb24                f_closedir
+                0x0202eb60                f_readdir
+                0x0202ec04                f_seekdir
+                0x0202eca0                f_findnext
+                0x0202ed44                f_findfirst
+                0x0202ed98                f_stat
+                0x0202ee20                f_getfree
+                0x0202f08c                f_truncate
+                0x0202f208                f_unlink
+                0x0202f384                f_mkdir
+                0x0202f610                f_rename
+                0x0202f8f0                f_chmod
+                0x0202f9d8                f_utime
+                0x0202fabc                f_mkfs
+                0x02030f30                elm_get_vol
+                0x02030f70                FEX_getlink_clust
+ .text          0x02030fa8      0x2a0 ../bwlib\libfs.a(ffunicode.o)
+                0x02030fa8                ff_uni2oem
+                0x02031078                ff_oem2uni
+                0x02031120                ff_wtoupper
+ .text          0x02031248      0x708 ../bwlib\libsd.a(ax32xx_sd.o)
+                0x02031248                ax32xx_sd0Init
+                0x0203139c                ax32xx_sd0Uninit
+                0x02031408                ax32xx_sd0SendCmd
+                0x02031554                ax32xx_sd0BusSet
+                0x02031598                ax32xx_sd0Recv
+                0x020315ec                ax32xx_sd0Send
+                0x02031624                ax32xx_sd0WaitDAT0
+                0x020316b4                ax32xx_sd0WaitPend
+                0x02031728                ax32xx_sd0GetRsp
+                0x02031744                ax32xx_sdCRCCheck
+                0x020317a4                ax32xx_sd0Buffer
+                0x020317c0                ax32xx_sdSetFunc
+                0x020318a4                ax32xx_sd0ClkSet
+ .text          0x02031950       0xb0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-memcmp.o)
+                0x02031950                memcmp
+ .text          0x02031a00      0x158 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-memcpy.o)
+                0x02031a00                memcpy
+ .text          0x02031b58      0x15c C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-memset.o)
+                0x02031b58                memset
+ .text          0x02031cb4       0xb8 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strcat.o)
+                0x02031cb4                strcat
+ .text          0x02031d6c      0x1fc C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strchr.o)
+                0x02031d6c                strchr
+ .text          0x02031f68      0x104 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strcmp.o)
+                0x02031f68                strcmp
+ .text          0x0203206c       0xc0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strcpy.o)
+                0x0203206c                strcpy
+ .text          0x0203212c       0xe4 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strlen.o)
+                0x0203212c                strlen
+ .text          0x02032210      0x178 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strncmp.o)
+                0x02032210                strncmp
+ .text          0x02032388      0x7d0 C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a(_udivdi3.o)
+                0x02032388                __udivdi3
+ .text          0x02032b58       0xf4 C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a(__udivsi3.o)
+                0x02032b58                __udivsi3
+                0x02032b58                __udivsi3_internal
+ .text          0x02032c4c       0x1c C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a(__umodsi3.o)
+                0x02032c4c                __umodsi3
+ .text          0x02032c68        0x0 C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a(_clz.o)
  *(.rodata*)
  .rodata.str1.1
-                0x02032ce4      0x1f0 ./Debug/main.c.o
+                0x02032c68      0x1f0 ./Debug/main.c.o
                                 0x1f2 (size before relaxing)
  .rodata.str1.1
-                0x02032ed4      0x198 ./Debug/resource_manager.c.o
- .rodata.cst4   0x0203306c        0x4 ./Debug/resource_manager.c.o
+                0x02032e58      0x198 ./Debug/resource_manager.c.o
+ .rodata.cst4   0x02032ff0        0x4 ./Debug/resource_manager.c.o
  .rodata.str1.1
-                0x02033070       0x75 ./Debug/task_audio_playback.c.o
+                0x02032ff4       0x75 ./Debug/task_audio_playback.c.o
  .rodata.str1.1
-                0x020330e5       0xfe ./Debug/task_audio_record.c.o
+                0x02033069       0xfe ./Debug/task_audio_record.c.o
                                 0x10a (size before relaxing)
  .rodata.str1.1
-                0x020331e3      0x22c ./Debug/task_deamon.c.o
+                0x02033167      0x22c ./Debug/task_deamon.c.o
                                 0x241 (size before relaxing)
  .rodata.str1.1
-                0x0203340f      0x160 ./Debug/task_image_encode.c.o
+                0x02033393      0x160 ./Debug/task_image_encode.c.o
                                 0x16c (size before relaxing)
  .rodata.str1.1
-                0x0203356f       0x1c ./Debug/task_main.c.o
- *fill*         0x0203358b        0x1 
- .rodata        0x0203358c       0x24 ./Debug/task_main.c.o
+                0x020334f3       0x1c ./Debug/task_main.c.o
+ *fill*         0x0203350f        0x1 
+ .rodata        0x02033510       0x24 ./Debug/task_main.c.o
  .rodata.str1.1
-                0x020335b0       0x4c ./Debug/task_usb.c.o
+                0x02033534       0x4c ./Debug/task_usb.c.o
  .rodata.str1.1
-                0x020335fc      0x1cc ./Debug/task_video_record.c.o
+                0x02033580      0x1cc ./Debug/task_video_record.c.o
                                 0x225 (size before relaxing)
  .rodata.str1.1
-                0x020337c8      0x101 ./Debug/upgrade.c.o
+                0x0203374c      0x101 ./Debug/upgrade.c.o
                                 0x10d (size before relaxing)
  .rodata.str1.1
-                0x020338c9       0xa3 ./Debug/board.c.o
+                0x0203384d       0xa3 ./Debug/board.c.o
  .rodata.str1.1
-                0x0203396c       0x2d ./Debug/board_bwv1.c.o
- *fill*         0x02033999        0x3 
- .rodata        0x0203399c       0xb8 ./Debug/board_bwv1.c.o
-                0x0203399c                board_bwv1
+                0x020338f0       0x2d ./Debug/board_bwv1.c.o
+ *fill*         0x0203391d        0x3 
+ .rodata        0x02033920       0xb8 ./Debug/board_bwv1.c.o
+                0x02033920                board_bwv1
  .rodata.str1.1
-                0x02033a54       0x6c ./Debug/config.c.o
- .rodata        0x02033ac0       0xa8 ./Debug/src_ax32xx_int.c.o
- .rodata        0x02033b68       0x18 ./Debug/src_ax32xx_sys.c.o
+                0x020339d8       0x6c ./Debug/config.c.o
+ .rodata        0x02033a44       0xa8 ./Debug/src_ax32xx_int.c.o
+ .rodata        0x02033aec       0x18 ./Debug/src_ax32xx_sys.c.o
  .rodata.str1.1
-                0x02033b80       0x3f ./Debug/src_ax32xx_sys.c.o
- *fill*         0x02033bbf        0x1 
- .rodata        0x02033bc0       0x60 ./Debug/src_ax32xx_dma.c.o
-                0x02033bc0                default_cfg
- .rodata        0x02033c20       0x4c ./Debug/src_ax32xx_gpio.c.o
+                0x02033b04       0x3f ./Debug/src_ax32xx_sys.c.o
+ *fill*         0x02033b43        0x1 
+ .rodata        0x02033b44       0x60 ./Debug/src_ax32xx_dma.c.o
+                0x02033b44                default_cfg
+ .rodata        0x02033ba4       0x4c ./Debug/src_ax32xx_gpio.c.o
  .rodata.str1.1
-                0x02033c6c       0x13 ./Debug/src_ax32xx_rtc.c.o
- *fill*         0x02033c7f        0x1 
- .rodata        0x02033c80       0x4c ./Debug/src_ax32xx_dac.c.o
-                0x02033c80                gain
-                0x02033c94                eq_coeff
- .rodata        0x02033ccc      0x150 ./Debug/src_ax32xx_isp.c.o
-                0x02033d30                GAOS3X3_TAB
-                0x02033d54                GAOS5X5_TAB
-                0x02033db8                LOG_TAB
- .rodata        0x02033e1c      0x9c0 ./Debug/src_jpeg_table.c.o
- .rodata        0x020347dc       0x30 ./Debug/src_ax32xx_usb.c.o
-                0x020347dc                ExRADR
-                0x020347f4                ExTADR
+                0x02033bf0       0x13 ./Debug/src_ax32xx_rtc.c.o
+ *fill*         0x02033c03        0x1 
+ .rodata        0x02033c04       0x4c ./Debug/src_ax32xx_dac.c.o
+                0x02033c04                gain
+                0x02033c18                eq_coeff
+ .rodata        0x02033c50      0x150 ./Debug/src_ax32xx_isp.c.o
+                0x02033cb4                GAOS3X3_TAB
+                0x02033cd8                GAOS5X5_TAB
+                0x02033d3c                LOG_TAB
+ .rodata        0x02033da0      0x9c0 ./Debug/src_jpeg_table.c.o
+ .rodata        0x02034760       0x30 ./Debug/src_ax32xx_usb.c.o
+                0x02034760                ExRADR
+                0x02034778                ExTADR
  .rodata.str1.1
-                0x0203480c      0x2f2 ./Debug/mjpeg_ax32xx_mjpeg.c.o
- *fill*         0x02034afe        0x2 
- .rodata        0x02034b00      0x1b4 ./Debug/mjpeg_ax32xx_mjpeg.c.o
-                0x02034b14                bicCtab
-                0x02034b34                c_table_chroma
-                0x02034b74                belta_table_chroma
-                0x02034bb4                alpha_table_chroma
-                0x02034bf4                c_table_luma
-                0x02034c34                belta_table_luma
-                0x02034c74                alpha_table_luma
- .rodata        0x02034cb4       0x2c ./Debug/src_hal_dac.c.o
+                0x02034790      0x2f2 ./Debug/mjpeg_ax32xx_mjpeg.c.o
+ *fill*         0x02034a82        0x2 
+ .rodata        0x02034a84      0x1b4 ./Debug/mjpeg_ax32xx_mjpeg.c.o
+                0x02034a98                bicCtab
+                0x02034ab8                c_table_chroma
+                0x02034af8                belta_table_chroma
+                0x02034b38                alpha_table_chroma
+                0x02034b78                c_table_luma
+                0x02034bb8                belta_table_luma
+                0x02034bf8                alpha_table_luma
+ .rodata        0x02034c38       0x2c ./Debug/src_hal_dac.c.o
  .rodata.str1.1
-                0x02034ce0        0xa ./Debug/src_hal_rtc.c.o
- *fill*         0x02034cea        0x2 
- .rodata        0x02034cec        0xc ./Debug/src_hal_rtc.c.o
+                0x02034c64        0xa ./Debug/src_hal_rtc.c.o
+ *fill*         0x02034c6e        0x2 
+ .rodata        0x02034c70        0xc ./Debug/src_hal_rtc.c.o
  .rodata.str1.1
-                0x02034cf8       0x25 ./Debug/src_hal_sd.c.o
+                0x02034c7c       0x25 ./Debug/src_hal_sd.c.o
  .rodata.str1.1
-                0x02034d1d       0x8e ./Debug/src_hal_mjpeg.c.o
- *fill*         0x02034dab        0x1 
- .rodata        0x02034dac        0xc ./Debug/src_hal_mjpeg.c.o
- *fill*         0x02034db8        0x8 
- .rodata        0x02034dc0      0x480 ./Debug/isp_hal_isp.c.o
-                0x02035120                Ratio_of_Evstep
- .rodata        0x02035240      0x4e8 ./Debug/dusb_hal_usb_dev_enum.c.o
-                0x02035284                DEV_QAULIFIER_DESC_DATA
-                0x02035290                UsbStrDescSerialNumber
-                0x020352b0                UsbStrDescProduct_0
-                0x020352d0                UsbStrDescProduct_1
-                0x020352f0                UsbStrDescManufacturer
-                0x02035300                UsbLanguageID
-                0x02035304                TYPE_COMB_CONFIG
-                0x020354f4                uvc_cfg
-                0x020356cc                msc_cfg
-                0x020356ec                TYPE_COMB_DEVICE
-                0x02035700                uvc_dev
-                0x02035714                msc_dev
+                0x02034ca1       0x8e ./Debug/src_hal_mjpeg.c.o
+ *fill*         0x02034d2f        0x1 
+ .rodata        0x02034d30        0xc ./Debug/src_hal_mjpeg.c.o
+ *fill*         0x02034d3c        0x4 
+ .rodata        0x02034d40      0x480 ./Debug/isp_hal_isp.c.o
+                0x020350a0                Ratio_of_Evstep
+ .rodata        0x020351c0      0x4e8 ./Debug/dusb_hal_usb_dev_enum.c.o
+                0x02035204                DEV_QAULIFIER_DESC_DATA
+                0x02035210                UsbStrDescSerialNumber
+                0x02035230                UsbStrDescProduct_0
+                0x02035250                UsbStrDescProduct_1
+                0x02035270                UsbStrDescManufacturer
+                0x02035280                UsbLanguageID
+                0x02035284                TYPE_COMB_CONFIG
+                0x02035474                uvc_cfg
+                0x0203564c                msc_cfg
+                0x0203566c                TYPE_COMB_DEVICE
+                0x02035680                uvc_dev
+                0x02035694                msc_dev
  .rodata.str1.1
-                0x02035728       0x19 ./Debug/dusb_hal_usb_msc.c.o
- *fill*         0x02035741        0x3 
- .rodata        0x02035744       0x30 ./Debug/dusb_hal_usb_msc.c.o
-                0x02035744                MscSenseCode
-                0x02035750                device_inquiry_data
- .rodata        0x02035774        0x8 ./Debug/dusb_hal_usb_uac.c.o
-                0x02035774                UacVolCtrlSettings_def
- .rodata        0x0203577c      0xcbc ./Debug/dusb_hal_usb_uvc.c.o
-                0x0203577c                probe
-                0x020357a4                pu_rqu_ex
-                0x02035948                pu_rqu
+                0x020356a8       0x19 ./Debug/dusb_hal_usb_msc.c.o
+ *fill*         0x020356c1        0x3 
+ .rodata        0x020356c4       0x30 ./Debug/dusb_hal_usb_msc.c.o
+                0x020356c4                MscSenseCode
+                0x020356d0                device_inquiry_data
+ .rodata        0x020356f4        0x8 ./Debug/dusb_hal_usb_uac.c.o
+                0x020356f4                UacVolCtrlSettings_def
+ .rodata        0x020356fc      0xcbc ./Debug/dusb_hal_usb_uvc.c.o
+                0x020356fc                probe
+                0x02035724                pu_rqu_ex
+                0x020358c8                pu_rqu
  .rodata.str1.1
-                0x02036438      0x159 ./Debug/audio_audio_playback.c.o
+                0x020363b8      0x159 ./Debug/audio_audio_playback.c.o
  .rodata.str1.1
-                0x02036591       0x6b ./Debug/audio_audio_record.c.o
+                0x02036511       0x6b ./Debug/audio_audio_record.c.o
  .rodata.str1.1
-                0x020365fc      0x3f0 ./Debug/video_video_record.c.o
- .rodata        0x020369ec       0x48 ./Debug/video_video_record.c.o
-                0x020369ec                picB_size
-                0x02036a04                pic_size
+                0x0203657c      0x3f0 ./Debug/video_video_record.c.o
+ .rodata        0x0203696c       0x48 ./Debug/video_video_record.c.o
+                0x0203696c                picB_size
+                0x02036984                pic_size
  .rodata.str1.1
-                0x02036a34       0xa0 ./Debug/image_image_encode.c.o
+                0x020369b4       0xa0 ./Debug/image_image_encode.c.o
  .rodata.str1.1
-                0x02036ad4       0x46 ./Debug/wav_wav.c.o
- *fill*         0x02036b1a        0x2 
- .rodata        0x02036b1c      0x144 ./Debug/wav_wav.c.o
+                0x02036a54       0x46 ./Debug/wav_wav.c.o
+ *fill*         0x02036a9a        0x2 
+ .rodata        0x02036a9c      0x144 ./Debug/wav_wav.c.o
  .rodata.str1.1
-                0x02036c60       0x45 ./Debug/uartcom_uartcom.c.o
+                0x02036be0       0x45 ./Debug/uartcom_uartcom.c.o
                                  0x56 (size before relaxing)
  .rodata.str1.1
-                0x02036ca5       0x4e ./Debug/cmos_sensor_cmos_sensor.c.o
- *fill*         0x02036cf3        0xd 
- .rodata        0x02036d00      0xce0 ./Debug/cmos_sensor_cmos_sensor.c.o
-                0x02036d00                null_init
-                0x02036d60                test_img
+                0x02036c25       0x4e ./Debug/cmos_sensor_cmos_sensor.c.o
+ *fill*         0x02036c73        0xd 
+ .rodata        0x02036c80      0xce0 ./Debug/cmos_sensor_cmos_sensor.c.o
+                0x02036c80                null_init
+                0x02036ce0                test_img
  .rodata.str1.1
-                0x020379e0       0x6a ./Debug/nvfs_nvfs.c.o
- *fill*         0x02037a4a        0x2 
- .rodata        0x02037a4c      0xd38 ./Debug/res_ascii_default.c.o
-                0x02037a4c                ascii_default_126
-                0x02037a70                ascii_default_125
-                0x02037a94                ascii_default_124
-                0x02037ab8                ascii_default_123
-                0x02037adc                ascii_default_122
-                0x02037b00                ascii_default_121
-                0x02037b24                ascii_default_120
-                0x02037b48                ascii_default_119
-                0x02037b6c                ascii_default_118
-                0x02037b90                ascii_default_117
-                0x02037bb4                ascii_default_116
-                0x02037bd8                ascii_default_115
-                0x02037bfc                ascii_default_114
-                0x02037c20                ascii_default_113
-                0x02037c44                ascii_default_112
-                0x02037c68                ascii_default_111
-                0x02037c8c                ascii_default_110
-                0x02037cb0                ascii_default_109
-                0x02037cd4                ascii_default_108
-                0x02037cf8                ascii_default_107
-                0x02037d1c                ascii_default_106
-                0x02037d40                ascii_default_105
-                0x02037d64                ascii_default_104
-                0x02037d88                ascii_default_103
-                0x02037dac                ascii_default_102
-                0x02037dd0                ascii_default_101
-                0x02037df4                ascii_default_100
-                0x02037e18                ascii_default_99
-                0x02037e3c                ascii_default_98
-                0x02037e60                ascii_default_97
-                0x02037e84                ascii_default_96
-                0x02037ea8                ascii_default_95
-                0x02037ecc                ascii_default_94
-                0x02037ef0                ascii_default_93
-                0x02037f14                ascii_default_92
-                0x02037f38                ascii_default_91
-                0x02037f5c                ascii_default_90
-                0x02037f80                ascii_default_89
-                0x02037fa4                ascii_default_88
-                0x02037fc8                ascii_default_87
-                0x02037fec                ascii_default_86
-                0x02038010                ascii_default_85
-                0x02038034                ascii_default_84
-                0x02038058                ascii_default_83
-                0x0203807c                ascii_default_82
-                0x020380a0                ascii_default_81
-                0x020380c4                ascii_default_80
-                0x020380e8                ascii_default_79
-                0x0203810c                ascii_default_78
-                0x02038130                ascii_default_77
-                0x02038154                ascii_default_76
-                0x02038178                ascii_default_75
-                0x0203819c                ascii_default_74
-                0x020381c0                ascii_default_73
-                0x020381e4                ascii_default_72
-                0x02038208                ascii_default_71
-                0x0203822c                ascii_default_70
-                0x02038250                ascii_default_69
-                0x02038274                ascii_default_68
-                0x02038298                ascii_default_67
-                0x020382bc                ascii_default_66
-                0x020382e0                ascii_default_65
-                0x02038304                ascii_default_64
-                0x02038328                ascii_default_63
-                0x0203834c                ascii_default_62
-                0x02038370                ascii_default_61
-                0x02038394                ascii_default_60
-                0x020383b8                ascii_default_59
-                0x020383dc                ascii_default_58
-                0x02038400                ascii_default_57
-                0x02038424                ascii_default_56
-                0x02038448                ascii_default_55
-                0x0203846c                ascii_default_54
-                0x02038490                ascii_default_53
-                0x020384b4                ascii_default_52
-                0x020384d8                ascii_default_51
-                0x020384fc                ascii_default_50
-                0x02038520                ascii_default_49
-                0x02038544                ascii_default_48
-                0x02038568                ascii_default_47
-                0x0203858c                ascii_default_46
-                0x020385b0                ascii_default_45
-                0x020385d4                ascii_default_44
-                0x020385f8                ascii_default_43
-                0x0203861c                ascii_default_42
-                0x02038640                ascii_default_41
-                0x02038664                ascii_default_40
-                0x02038688                ascii_default_39
-                0x020386ac                ascii_default_38
-                0x020386d0                ascii_default_37
-                0x020386f4                ascii_default_36
-                0x02038718                ascii_default_35
-                0x0203873c                ascii_default_33
-                0x02038760                ascii_default_32
- .rodata        0x02038784     0x18f8 ./Debug/res_ascii_num2.c.o
-                0x02038784                ascii_num2_126
-                0x020387c8                ascii_num2_125
-                0x0203880c                ascii_num2_124
-                0x02038850                ascii_num2_123
-                0x02038894                ascii_num2_122
-                0x020388d8                ascii_num2_121
-                0x0203891c                ascii_num2_120
-                0x02038960                ascii_num2_119
-                0x020389a4                ascii_num2_118
-                0x020389e8                ascii_num2_117
-                0x02038a2c                ascii_num2_116
-                0x02038a70                ascii_num2_115
-                0x02038ab4                ascii_num2_114
-                0x02038af8                ascii_num2_113
-                0x02038b3c                ascii_num2_112
-                0x02038b80                ascii_num2_111
-                0x02038bc4                ascii_num2_110
-                0x02038c08                ascii_num2_109
-                0x02038c4c                ascii_num2_108
-                0x02038c90                ascii_num2_107
-                0x02038cd4                ascii_num2_106
-                0x02038d18                ascii_num2_105
-                0x02038d5c                ascii_num2_104
-                0x02038da0                ascii_num2_103
-                0x02038de4                ascii_num2_102
-                0x02038e28                ascii_num2_101
-                0x02038e6c                ascii_num2_100
-                0x02038eb0                ascii_num2_99
-                0x02038ef4                ascii_num2_98
-                0x02038f38                ascii_num2_97
-                0x02038f7c                ascii_num2_96
-                0x02038fc0                ascii_num2_95
-                0x02039004                ascii_num2_94
-                0x02039048                ascii_num2_93
-                0x0203908c                ascii_num2_92
-                0x020390d0                ascii_num2_91
-                0x02039114                ascii_num2_90
-                0x02039158                ascii_num2_89
-                0x0203919c                ascii_num2_88
-                0x020391e0                ascii_num2_87
-                0x02039224                ascii_num2_86
-                0x02039268                ascii_num2_85
-                0x020392ac                ascii_num2_84
-                0x020392f0                ascii_num2_83
-                0x02039334                ascii_num2_82
-                0x02039378                ascii_num2_81
-                0x020393bc                ascii_num2_80
-                0x02039400                ascii_num2_79
-                0x02039444                ascii_num2_78
-                0x02039488                ascii_num2_77
-                0x020394cc                ascii_num2_76
-                0x02039510                ascii_num2_75
-                0x02039554                ascii_num2_74
-                0x02039598                ascii_num2_73
-                0x020395dc                ascii_num2_72
-                0x02039620                ascii_num2_71
-                0x02039664                ascii_num2_70
-                0x020396a8                ascii_num2_69
-                0x020396ec                ascii_num2_68
-                0x02039730                ascii_num2_67
-                0x02039774                ascii_num2_66
-                0x020397b8                ascii_num2_65
-                0x020397fc                ascii_num2_64
-                0x02039840                ascii_num2_63
-                0x02039884                ascii_num2_62
-                0x020398c8                ascii_num2_61
-                0x0203990c                ascii_num2_60
-                0x02039950                ascii_num2_59
-                0x02039994                ascii_num2_58
-                0x020399d8                ascii_num2_57
-                0x02039a1c                ascii_num2_56
-                0x02039a60                ascii_num2_55
-                0x02039aa4                ascii_num2_54
-                0x02039ae8                ascii_num2_53
-                0x02039b2c                ascii_num2_52
-                0x02039b70                ascii_num2_51
-                0x02039bb4                ascii_num2_50
-                0x02039bf8                ascii_num2_49
-                0x02039c3c                ascii_num2_48
-                0x02039c80                ascii_num2_47
-                0x02039cc4                ascii_num2_46
-                0x02039d08                ascii_num2_45
-                0x02039d4c                ascii_num2_44
-                0x02039d90                ascii_num2_43
-                0x02039dd4                ascii_num2_42
-                0x02039e18                ascii_num2_41
-                0x02039e5c                ascii_num2_40
-                0x02039ea0                ascii_num2_39
-                0x02039ee4                ascii_num2_38
-                0x02039f28                ascii_num2_37
-                0x02039f6c                ascii_num2_36
-                0x02039fb0                ascii_num2_35
-                0x02039ff4                ascii_num2_33
-                0x0203a038                ascii_num2_32
- .rodata        0x0203a07c     0x52b8 ./Debug/res_ascii_num3.c.o
-                0x0203a07c                ascii_num3_126
-                0x0203a180                ascii_num3_125
-                0x0203a204                ascii_num3_124
-                0x0203a288                ascii_num3_123
-                0x0203a30c                ascii_num3_122
-                0x0203a3d0                ascii_num3_121
-                0x0203a494                ascii_num3_120
-                0x0203a558                ascii_num3_119
-                0x0203a65c                ascii_num3_118
-                0x0203a720                ascii_num3_117
-                0x0203a824                ascii_num3_116
-                0x0203a8a8                ascii_num3_115
-                0x0203a96c                ascii_num3_114
-                0x0203a9f0                ascii_num3_113
-                0x0203aaf4                ascii_num3_112
-                0x0203abf8                ascii_num3_111
-                0x0203acfc                ascii_num3_110
-                0x0203ae00                ascii_num3_109
-                0x0203af44                ascii_num3_108
-                0x0203afc8                ascii_num3_107
-                0x0203b08c                ascii_num3_106
-                0x0203b110                ascii_num3_105
-                0x0203b194                ascii_num3_104
-                0x0203b298                ascii_num3_103
-                0x0203b39c                ascii_num3_102
-                0x0203b420                ascii_num3_101
-                0x0203b524                ascii_num3_100
-                0x0203b628                ascii_num3_99
-                0x0203b6ec                ascii_num3_98
-                0x0203b7f0                ascii_num3_97
-                0x0203b8f4                ascii_num3_96
-                0x0203b978                ascii_num3_95
-                0x0203ba3c                ascii_num3_94
-                0x0203bb00                ascii_num3_93
-                0x0203bb84                ascii_num3_92
-                0x0203bc08                ascii_num3_91
-                0x0203bc8c                ascii_num3_90
-                0x0203bd90                ascii_num3_89
-                0x0203be94                ascii_num3_88
-                0x0203bf98                ascii_num3_87
-                0x0203c11c                ascii_num3_86
-                0x0203c220                ascii_num3_85
-                0x0203c324                ascii_num3_84
-                0x0203c428                ascii_num3_83
-                0x0203c52c                ascii_num3_82
-                0x0203c630                ascii_num3_81
-                0x0203c774                ascii_num3_80
-                0x0203c878                ascii_num3_79
-                0x0203c9bc                ascii_num3_78
-                0x0203cac0                ascii_num3_77
-                0x0203cc04                ascii_num3_76
-                0x0203cd08                ascii_num3_75
-                0x0203ce0c                ascii_num3_74
-                0x0203ced0                ascii_num3_73
-                0x0203cf54                ascii_num3_72
-                0x0203d058                ascii_num3_71
-                0x0203d19c                ascii_num3_70
-                0x0203d2a0                ascii_num3_69
-                0x0203d3a4                ascii_num3_68
-                0x0203d4a8                ascii_num3_67
-                0x0203d5ac                ascii_num3_66
-                0x0203d6b0                ascii_num3_65
-                0x0203d7b4                ascii_num3_64
-                0x0203d938                ascii_num3_63
-                0x0203da3c                ascii_num3_62
-                0x0203db40                ascii_num3_61
-                0x0203dc44                ascii_num3_60
-                0x0203dd48                ascii_num3_59
-                0x0203ddcc                ascii_num3_58
-                0x0203de50                ascii_num3_57
-                0x0203df54                ascii_num3_56
-                0x0203e058                ascii_num3_55
-                0x0203e15c                ascii_num3_54
-                0x0203e260                ascii_num3_53
-                0x0203e364                ascii_num3_52
-                0x0203e468                ascii_num3_51
-                0x0203e56c                ascii_num3_50
-                0x0203e670                ascii_num3_49
-                0x0203e774                ascii_num3_48
-                0x0203e878                ascii_num3_47
-                0x0203e8fc                ascii_num3_46
-                0x0203e980                ascii_num3_45
-                0x0203ea04                ascii_num3_44
-                0x0203ea88                ascii_num3_43
-                0x0203eb8c                ascii_num3_42
-                0x0203ec50                ascii_num3_41
-                0x0203ecd4                ascii_num3_40
-                0x0203ed58                ascii_num3_39
-                0x0203eddc                ascii_num3_38
-                0x0203eee0                ascii_num3_37
-                0x0203f024                ascii_num3_36
-                0x0203f128                ascii_num3_35
-                0x0203f22c                ascii_num3_33
-                0x0203f2b0                ascii_num3_32
+                0x02037960       0x6a ./Debug/nvfs_nvfs.c.o
+ *fill*         0x020379ca        0x2 
+ .rodata        0x020379cc      0xd38 ./Debug/res_ascii_default.c.o
+                0x020379cc                ascii_default_126
+                0x020379f0                ascii_default_125
+                0x02037a14                ascii_default_124
+                0x02037a38                ascii_default_123
+                0x02037a5c                ascii_default_122
+                0x02037a80                ascii_default_121
+                0x02037aa4                ascii_default_120
+                0x02037ac8                ascii_default_119
+                0x02037aec                ascii_default_118
+                0x02037b10                ascii_default_117
+                0x02037b34                ascii_default_116
+                0x02037b58                ascii_default_115
+                0x02037b7c                ascii_default_114
+                0x02037ba0                ascii_default_113
+                0x02037bc4                ascii_default_112
+                0x02037be8                ascii_default_111
+                0x02037c0c                ascii_default_110
+                0x02037c30                ascii_default_109
+                0x02037c54                ascii_default_108
+                0x02037c78                ascii_default_107
+                0x02037c9c                ascii_default_106
+                0x02037cc0                ascii_default_105
+                0x02037ce4                ascii_default_104
+                0x02037d08                ascii_default_103
+                0x02037d2c                ascii_default_102
+                0x02037d50                ascii_default_101
+                0x02037d74                ascii_default_100
+                0x02037d98                ascii_default_99
+                0x02037dbc                ascii_default_98
+                0x02037de0                ascii_default_97
+                0x02037e04                ascii_default_96
+                0x02037e28                ascii_default_95
+                0x02037e4c                ascii_default_94
+                0x02037e70                ascii_default_93
+                0x02037e94                ascii_default_92
+                0x02037eb8                ascii_default_91
+                0x02037edc                ascii_default_90
+                0x02037f00                ascii_default_89
+                0x02037f24                ascii_default_88
+                0x02037f48                ascii_default_87
+                0x02037f6c                ascii_default_86
+                0x02037f90                ascii_default_85
+                0x02037fb4                ascii_default_84
+                0x02037fd8                ascii_default_83
+                0x02037ffc                ascii_default_82
+                0x02038020                ascii_default_81
+                0x02038044                ascii_default_80
+                0x02038068                ascii_default_79
+                0x0203808c                ascii_default_78
+                0x020380b0                ascii_default_77
+                0x020380d4                ascii_default_76
+                0x020380f8                ascii_default_75
+                0x0203811c                ascii_default_74
+                0x02038140                ascii_default_73
+                0x02038164                ascii_default_72
+                0x02038188                ascii_default_71
+                0x020381ac                ascii_default_70
+                0x020381d0                ascii_default_69
+                0x020381f4                ascii_default_68
+                0x02038218                ascii_default_67
+                0x0203823c                ascii_default_66
+                0x02038260                ascii_default_65
+                0x02038284                ascii_default_64
+                0x020382a8                ascii_default_63
+                0x020382cc                ascii_default_62
+                0x020382f0                ascii_default_61
+                0x02038314                ascii_default_60
+                0x02038338                ascii_default_59
+                0x0203835c                ascii_default_58
+                0x02038380                ascii_default_57
+                0x020383a4                ascii_default_56
+                0x020383c8                ascii_default_55
+                0x020383ec                ascii_default_54
+                0x02038410                ascii_default_53
+                0x02038434                ascii_default_52
+                0x02038458                ascii_default_51
+                0x0203847c                ascii_default_50
+                0x020384a0                ascii_default_49
+                0x020384c4                ascii_default_48
+                0x020384e8                ascii_default_47
+                0x0203850c                ascii_default_46
+                0x02038530                ascii_default_45
+                0x02038554                ascii_default_44
+                0x02038578                ascii_default_43
+                0x0203859c                ascii_default_42
+                0x020385c0                ascii_default_41
+                0x020385e4                ascii_default_40
+                0x02038608                ascii_default_39
+                0x0203862c                ascii_default_38
+                0x02038650                ascii_default_37
+                0x02038674                ascii_default_36
+                0x02038698                ascii_default_35
+                0x020386bc                ascii_default_33
+                0x020386e0                ascii_default_32
+ .rodata        0x02038704     0x18f8 ./Debug/res_ascii_num2.c.o
+                0x02038704                ascii_num2_126
+                0x02038748                ascii_num2_125
+                0x0203878c                ascii_num2_124
+                0x020387d0                ascii_num2_123
+                0x02038814                ascii_num2_122
+                0x02038858                ascii_num2_121
+                0x0203889c                ascii_num2_120
+                0x020388e0                ascii_num2_119
+                0x02038924                ascii_num2_118
+                0x02038968                ascii_num2_117
+                0x020389ac                ascii_num2_116
+                0x020389f0                ascii_num2_115
+                0x02038a34                ascii_num2_114
+                0x02038a78                ascii_num2_113
+                0x02038abc                ascii_num2_112
+                0x02038b00                ascii_num2_111
+                0x02038b44                ascii_num2_110
+                0x02038b88                ascii_num2_109
+                0x02038bcc                ascii_num2_108
+                0x02038c10                ascii_num2_107
+                0x02038c54                ascii_num2_106
+                0x02038c98                ascii_num2_105
+                0x02038cdc                ascii_num2_104
+                0x02038d20                ascii_num2_103
+                0x02038d64                ascii_num2_102
+                0x02038da8                ascii_num2_101
+                0x02038dec                ascii_num2_100
+                0x02038e30                ascii_num2_99
+                0x02038e74                ascii_num2_98
+                0x02038eb8                ascii_num2_97
+                0x02038efc                ascii_num2_96
+                0x02038f40                ascii_num2_95
+                0x02038f84                ascii_num2_94
+                0x02038fc8                ascii_num2_93
+                0x0203900c                ascii_num2_92
+                0x02039050                ascii_num2_91
+                0x02039094                ascii_num2_90
+                0x020390d8                ascii_num2_89
+                0x0203911c                ascii_num2_88
+                0x02039160                ascii_num2_87
+                0x020391a4                ascii_num2_86
+                0x020391e8                ascii_num2_85
+                0x0203922c                ascii_num2_84
+                0x02039270                ascii_num2_83
+                0x020392b4                ascii_num2_82
+                0x020392f8                ascii_num2_81
+                0x0203933c                ascii_num2_80
+                0x02039380                ascii_num2_79
+                0x020393c4                ascii_num2_78
+                0x02039408                ascii_num2_77
+                0x0203944c                ascii_num2_76
+                0x02039490                ascii_num2_75
+                0x020394d4                ascii_num2_74
+                0x02039518                ascii_num2_73
+                0x0203955c                ascii_num2_72
+                0x020395a0                ascii_num2_71
+                0x020395e4                ascii_num2_70
+                0x02039628                ascii_num2_69
+                0x0203966c                ascii_num2_68
+                0x020396b0                ascii_num2_67
+                0x020396f4                ascii_num2_66
+                0x02039738                ascii_num2_65
+                0x0203977c                ascii_num2_64
+                0x020397c0                ascii_num2_63
+                0x02039804                ascii_num2_62
+                0x02039848                ascii_num2_61
+                0x0203988c                ascii_num2_60
+                0x020398d0                ascii_num2_59
+                0x02039914                ascii_num2_58
+                0x02039958                ascii_num2_57
+                0x0203999c                ascii_num2_56
+                0x020399e0                ascii_num2_55
+                0x02039a24                ascii_num2_54
+                0x02039a68                ascii_num2_53
+                0x02039aac                ascii_num2_52
+                0x02039af0                ascii_num2_51
+                0x02039b34                ascii_num2_50
+                0x02039b78                ascii_num2_49
+                0x02039bbc                ascii_num2_48
+                0x02039c00                ascii_num2_47
+                0x02039c44                ascii_num2_46
+                0x02039c88                ascii_num2_45
+                0x02039ccc                ascii_num2_44
+                0x02039d10                ascii_num2_43
+                0x02039d54                ascii_num2_42
+                0x02039d98                ascii_num2_41
+                0x02039ddc                ascii_num2_40
+                0x02039e20                ascii_num2_39
+                0x02039e64                ascii_num2_38
+                0x02039ea8                ascii_num2_37
+                0x02039eec                ascii_num2_36
+                0x02039f30                ascii_num2_35
+                0x02039f74                ascii_num2_33
+                0x02039fb8                ascii_num2_32
+ .rodata        0x02039ffc     0x52b8 ./Debug/res_ascii_num3.c.o
+                0x02039ffc                ascii_num3_126
+                0x0203a100                ascii_num3_125
+                0x0203a184                ascii_num3_124
+                0x0203a208                ascii_num3_123
+                0x0203a28c                ascii_num3_122
+                0x0203a350                ascii_num3_121
+                0x0203a414                ascii_num3_120
+                0x0203a4d8                ascii_num3_119
+                0x0203a5dc                ascii_num3_118
+                0x0203a6a0                ascii_num3_117
+                0x0203a7a4                ascii_num3_116
+                0x0203a828                ascii_num3_115
+                0x0203a8ec                ascii_num3_114
+                0x0203a970                ascii_num3_113
+                0x0203aa74                ascii_num3_112
+                0x0203ab78                ascii_num3_111
+                0x0203ac7c                ascii_num3_110
+                0x0203ad80                ascii_num3_109
+                0x0203aec4                ascii_num3_108
+                0x0203af48                ascii_num3_107
+                0x0203b00c                ascii_num3_106
+                0x0203b090                ascii_num3_105
+                0x0203b114                ascii_num3_104
+                0x0203b218                ascii_num3_103
+                0x0203b31c                ascii_num3_102
+                0x0203b3a0                ascii_num3_101
+                0x0203b4a4                ascii_num3_100
+                0x0203b5a8                ascii_num3_99
+                0x0203b66c                ascii_num3_98
+                0x0203b770                ascii_num3_97
+                0x0203b874                ascii_num3_96
+                0x0203b8f8                ascii_num3_95
+                0x0203b9bc                ascii_num3_94
+                0x0203ba80                ascii_num3_93
+                0x0203bb04                ascii_num3_92
+                0x0203bb88                ascii_num3_91
+                0x0203bc0c                ascii_num3_90
+                0x0203bd10                ascii_num3_89
+                0x0203be14                ascii_num3_88
+                0x0203bf18                ascii_num3_87
+                0x0203c09c                ascii_num3_86
+                0x0203c1a0                ascii_num3_85
+                0x0203c2a4                ascii_num3_84
+                0x0203c3a8                ascii_num3_83
+                0x0203c4ac                ascii_num3_82
+                0x0203c5b0                ascii_num3_81
+                0x0203c6f4                ascii_num3_80
+                0x0203c7f8                ascii_num3_79
+                0x0203c93c                ascii_num3_78
+                0x0203ca40                ascii_num3_77
+                0x0203cb84                ascii_num3_76
+                0x0203cc88                ascii_num3_75
+                0x0203cd8c                ascii_num3_74
+                0x0203ce50                ascii_num3_73
+                0x0203ced4                ascii_num3_72
+                0x0203cfd8                ascii_num3_71
+                0x0203d11c                ascii_num3_70
+                0x0203d220                ascii_num3_69
+                0x0203d324                ascii_num3_68
+                0x0203d428                ascii_num3_67
+                0x0203d52c                ascii_num3_66
+                0x0203d630                ascii_num3_65
+                0x0203d734                ascii_num3_64
+                0x0203d8b8                ascii_num3_63
+                0x0203d9bc                ascii_num3_62
+                0x0203dac0                ascii_num3_61
+                0x0203dbc4                ascii_num3_60
+                0x0203dcc8                ascii_num3_59
+                0x0203dd4c                ascii_num3_58
+                0x0203ddd0                ascii_num3_57
+                0x0203ded4                ascii_num3_56
+                0x0203dfd8                ascii_num3_55
+                0x0203e0dc                ascii_num3_54
+                0x0203e1e0                ascii_num3_53
+                0x0203e2e4                ascii_num3_52
+                0x0203e3e8                ascii_num3_51
+                0x0203e4ec                ascii_num3_50
+                0x0203e5f0                ascii_num3_49
+                0x0203e6f4                ascii_num3_48
+                0x0203e7f8                ascii_num3_47
+                0x0203e87c                ascii_num3_46
+                0x0203e900                ascii_num3_45
+                0x0203e984                ascii_num3_44
+                0x0203ea08                ascii_num3_43
+                0x0203eb0c                ascii_num3_42
+                0x0203ebd0                ascii_num3_41
+                0x0203ec54                ascii_num3_40
+                0x0203ecd8                ascii_num3_39
+                0x0203ed5c                ascii_num3_38
+                0x0203ee60                ascii_num3_37
+                0x0203efa4                ascii_num3_36
+                0x0203f0a8                ascii_num3_35
+                0x0203f1ac                ascii_num3_33
+                0x0203f230                ascii_num3_32
  .rodata.str1.1
-                0x0203f334       0x90 ../bwlib\libavi.a(encoder_odml.o)
+                0x0203f2b4       0x90 ../bwlib\libavi.a(encoder_odml.o)
  .rodata.str1.1
                 0x00000000       0x90 ../bwlib\libfs.a(fs.o)
                                   0x1 (size before relaxing)
  .rodata.str1.1
-                0x0203f3c4       0x50 ../bwlib\libfs.a(ff.o)
+                0x0203f344       0x50 ../bwlib\libfs.a(ff.o)
                                  0x59 (size before relaxing)
- .rodata.cst4   0x0203f414        0x4 ../bwlib\libfs.a(ff.o)
- .rodata        0x0203f418       0x40 ../bwlib\libfs.a(ff.o)
- .rodata        0x0203f458     0xe9c4 ../bwlib\libfs.a(ffunicode.o)
- .rodata        0x0204de1c      0x100 C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a(_clz.o)
-                0x0204de1c                __clz_tab
+ .rodata.cst4   0x0203f394        0x4 ../bwlib\libfs.a(ff.o)
+ .rodata        0x0203f398       0x40 ../bwlib\libfs.a(ff.o)
+ .rodata        0x0203f3d8     0xe9c4 ../bwlib\libfs.a(ffunicode.o)
+ .rodata        0x0204dd9c      0x100 C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a(_clz.o)
+                0x0204dd9c                __clz_tab
  *(.data*)
- .data          0x0204df1c        0x0 ./Debug/ax32xx_reset.S.o
- .data          0x0204df1c        0x0 ./Debug/ax32xx_spi_boot_cfg.S.o
- .data          0x0204df1c        0x0 ./Debug/ax32xx_BLDRX32.S.o
- .data          0x0204df1c        0x2 ./Debug/main.c.o
- .data          0x0204df1e        0x0 ./Debug/resource_manager.c.o
- .data          0x0204df1e        0x0 ./Debug/task_audio_playback.c.o
- .data          0x0204df1e        0x0 ./Debug/task_audio_record.c.o
- .data          0x0204df1e        0x0 ./Debug/task_deamon.c.o
- .data          0x0204df1e        0x1 ./Debug/task_image_encode.c.o
-                0x0204df1e                send_pack_cnt
- .data          0x0204df1f        0x0 ./Debug/task_main.c.o
- .data          0x0204df1f        0x0 ./Debug/task_usb.c.o
- .data          0x0204df1f        0x0 ./Debug/task_video_playback.c.o
- .data          0x0204df1f        0x0 ./Debug/task_video_record.c.o
- .data          0x0204df1f        0x0 ./Debug/upgrade.c.o
- *fill*         0x0204df1f        0x1 
- .data          0x0204df20        0x8 ./Debug/board.c.o
- .data          0x0204df28        0x1 ./Debug/board_bwv1.c.o
- .data          0x0204df29        0x0 ./Debug/config.c.o
- .data          0x0204df29        0x0 ./Debug/explorer.c.o
- *fill*         0x0204df29        0x3 
- .data          0x0204df2c       0x48 ./Debug/filelist.c.o
-                0x0204df2c                filelist
- .data          0x0204df74        0x0 ./Debug/task_usb_host.c.o
- .data          0x0204df74        0x0 ./Debug/xos_x_cpu.c.o
- .data          0x0204df74        0x0 ./Debug/xos_xmbox.c.o
- .data          0x0204df74        0x0 ./Debug/xos_xmsgq.c.o
- .data          0x0204df74        0x0 ./Debug/xos_xos.c.o
- .data          0x0204df74        0x0 ./Debug/xos_xwork.c.o
- .data          0x0204df74        0x0 ./Debug/multimedia_user_media.c.o
- .data          0x0204df74        0x0 ./Debug/src_ax32xx_int.c.o
- .data          0x0204df74        0x0 ./Debug/src_ax32xx_sys.c.o
- .data          0x0204df74        0x0 ./Debug/src_ax32xx_dma.c.o
- .data          0x0204df74        0x0 ./Debug/src_ax32xx_wdt.c.o
- .data          0x0204df74        0x0 ./Debug/src_ax32xx_gpio.c.o
- .data          0x0204df74        0x0 ./Debug/src_ax32xx_uart.c.o
- .data          0x0204df74        0x0 ./Debug/src_ax32xx_timer.c.o
- .data          0x0204df74        0x0 ./Debug/src_ax32xx_tminf.c.o
- .data          0x0204df74        0x0 ./Debug/src_ax32xx_spi.c.o
- .data          0x0204df74        0x0 ./Debug/src_ax32xx_rtc.c.o
- .data          0x0204df74        0x0 ./Debug/src_ax32xx_md.c.o
- .data          0x0204df74        0x0 ./Debug/src_ax32xx_iic.c.o
- .data          0x0204df74        0x0 ./Debug/src_ax32xx_dac.c.o
- .data          0x0204df74        0x0 ./Debug/src_ax32xx_adc.c.o
- .data          0x0204df74        0x0 ./Debug/src_ax32xx_auadc.c.o
- .data          0x0204df74        0x0 ./Debug/src_ax32xx_isp.c.o
- .data          0x0204df74        0x0 ./Debug/src_jpeg_table.c.o
- .data          0x0204df74       0x24 ./Debug/src_isp_tab.c.o
-                0x0204df74                color_cpr_step
-                0x0204df88                ylogstep
- .data          0x0204df98        0x0 ./Debug/src_ax32xx_usb.c.o
- .data          0x0204df98        0x0 ./Debug/src_ax32xx_misc.c.o
- .data          0x0204df98        0x0 ./Debug/src_ax32xx_pip.c.o
- .data          0x0204df98        0x0 ./Debug/src_ax32xx_btuart.c.o
- .data          0x0204df98        0x0 ./Debug/src_ax32xx_crc.c.o
- .data          0x0204df98        0x0 ./Debug/src_ax32xx_emi.c.o
- .data          0x0204df98        0x0 ./Debug/src_ax32xx_rotate.c.o
- .data          0x0204df98        0x0 ./Debug/src_ax32xx_osdcmp.c.o
- .data          0x0204df98        0x0 ./Debug/osd_ax32xx_osd.c.o
- .data          0x0204df98        0x0 ./Debug/csi_ax32xx_csi.c.o
- .data          0x0204df98        0x0 ./Debug/lcd_ax32xx_lcd.c.o
- .data          0x0204df98        0x0 ./Debug/mjpeg_ax32xx_mjpeg.c.o
- .data          0x0204df98        0x0 ./Debug/src_hal_adc.c.o
- .data          0x0204df98        0x0 ./Debug/src_hal_csi.c.o
- .data          0x0204df98        0x0 ./Debug/src_hal_dac.c.o
- .data          0x0204df98        0x0 ./Debug/src_hal_eeprom.c.o
- .data          0x0204df98        0x0 ./Debug/src_hal_gpio.c.o
- .data          0x0204df98        0x0 ./Debug/src_hal_iic.c.o
- .data          0x0204df98        0x0 ./Debug/src_hal_lcd.c.o
- .data          0x0204df98        0x0 ./Debug/src_hal_md.c.o
- .data          0x0204df98        0x0 ./Debug/src_hal_osd.c.o
- .data          0x0204df98        0x0 ./Debug/src_hal_rtc.c.o
- .data          0x0204df98        0x0 ./Debug/src_hal_sd.c.o
- .data          0x0204df98        0x0 ./Debug/src_hal_spi.c.o
- .data          0x0204df98        0x0 ./Debug/src_hal_timer.c.o
- .data          0x0204df98        0x0 ./Debug/src_hal_uart.c.o
- .data          0x0204df98       0x3c ./Debug/src_hal_watermark.c.o
- .data          0x0204dfd4        0x0 ./Debug/src_hal_sys.c.o
- .data          0x0204dfd4        0x0 ./Debug/src_hal_auadc.c.o
- .data          0x0204dfd4        0x0 ./Debug/src_hal_mjpeg.c.o
- .data          0x0204dfd4        0x0 ./Debug/src_hal_int.c.o
- .data          0x0204dfd4        0x0 ./Debug/src_hal_wdt.c.o
- .data          0x0204dfd4        0x0 ./Debug/src_hal_stream.c.o
- .data          0x0204dfd4        0x0 ./Debug/src_hal_emi.c.o
- .data          0x0204dfd4        0x0 ./Debug/src_hal_mjpegB.c.o
- .data          0x0204dfd4        0x0 ./Debug/src_hal_osdcmp.c.o
- .data          0x0204dfd4        0x0 ./Debug/src_hal_rotate.c.o
- .data          0x0204dfd4        0x0 ./Debug/src_hal_lcdframe.c.o
- .data          0x0204dfd4        0x2 ./Debug/isp_hal_isp.c.o
- .data          0x0204dfd6        0x0 ./Debug/dusb_hal_usb_api.c.o
- .data          0x0204dfd6        0x0 ./Debug/dusb_hal_usb_dev_enum.c.o
- .data          0x0204dfd6        0x0 ./Debug/dusb_hal_usb_msc.c.o
- .data          0x0204dfd6        0x0 ./Debug/dusb_hal_usb_uac.c.o
- *fill*         0x0204dfd6        0x2 
- .data          0x0204dfd8       0x28 ./Debug/dusb_hal_usb_uvc.c.o
-                0x0204dfd8                UVC_Still_Probe_Commit
-                0x0204dfe4                uvc_video_probe_commit_value
- .data          0x0204e000        0x0 ./Debug/husb_hal_usb_host_api.c.o
- .data          0x0204e000        0x0 ./Debug/husb_hal_usb_host_enum.c.o
- .data          0x0204e000        0x0 ./Debug/husb_hal_usb_host_tpbulk.c.o
- .data          0x0204e000        0x0 ./Debug/husb_hal_usb_host_uvc.c.o
- .data          0x0204e000        0x0 ./Debug/husb_hal_usensor.c.o
- .data          0x0204e000        0x0 ./Debug/audio_audio_playback.c.o
- .data          0x0204e000        0x0 ./Debug/audio_audio_record.c.o
- .data          0x0204e000        0x0 ./Debug/audio_ring_buffer.c.o
- .data          0x0204e000        0x0 ./Debug/video_video_playback.c.o
- .data          0x0204e000        0x0 ./Debug/video_video_record.c.o
- .data          0x0204e000        0x0 ./Debug/video_video_record_B.c.o
- .data          0x0204e000        0x0 ./Debug/image_image_decode.c.o
- .data          0x0204e000        0x0 ./Debug/image_image_encode.c.o
- .data          0x0204e000        0x0 ./Debug/wav_alaw.c.o
- .data          0x0204e000        0x0 ./Debug/wav_imaadpcm.c.o
- .data          0x0204e000        0x0 ./Debug/wav_pcm.c.o
- .data          0x0204e000        0x0 ./Debug/wav_ulaw.c.o
- .data          0x0204e000        0x0 ./Debug/wav_wav.c.o
- .data          0x0204e000        0x0 ./Debug/stream_stream.c.o
- .data          0x0204e000        0x0 ./Debug/uartcom_uartcom.c.o
- .data          0x0204e000        0x0 ./Debug/uartcom_uartCrc.c.o
- .data          0x0204e000        0x0 ./Debug/gsensor_G_gma301.c.o
- .data          0x0204e000        0x0 ./Debug/gsensor_gsensor.c.o
- .data          0x0204e000        0x0 ./Debug/gsensor_G_sc7a30e.c.o
- .data          0x0204e000        0x0 ./Debug/gsensor_g_da380.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_cmos_sensor.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_BF3a03.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_BF2013.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_BF3016.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_BF3703.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_GC0307.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_GC0308.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_GC0309.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_GC0328.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_GC1004.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_H42.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_H7640.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_HM1055.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_IT03A1.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_NT99141.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_NT99142.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_OV7670.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_OV7725.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_OV9710.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_OV9732.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_SC1045.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_SIV100B.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_SIV120B.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_SIV121DS.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_SP1409.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_H62.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_GC1034.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_OV7736.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_SP140A.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_GC1054.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_GC1064.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_H65.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_SC1243.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SNESOR_FPX1002.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_H63P.c.o
- .data          0x0204e000        0x0 ./Debug/cmos_sensor_SENSOR_BF20A6.c.o
- .data          0x0204e000        0x0 ./Debug/tft_lcd_lcd_mcu_st7789.c.o
- .data          0x0204e000        0x0 ./Debug/tft_lcd_lcd_rgb_jl_lcd.c.o
- .data          0x0204e000        0x0 ./Debug/tft_lcd_lcd_rgb_st7282.c.o
- .data          0x0204e000        0x0 ./Debug/tft_lcd_tft_lcd.c.o
- .data          0x0204e000        0x0 ./Debug/tft_lcd_lcd_mcu_5420.c.o
- .data          0x0204e000        0x0 ./Debug/tft_lcd_lcd_mcu_r61509v.c.o
- .data          0x0204e000        0x0 ./Debug/tft_lcd_lcd_rgb_ili8961.c.o
- .data          0x0204e000        0x0 ./Debug/tft_lcd_lcd_rgb_ili9342c.c.o
- .data          0x0204e000        0x0 ./Debug/tft_lcd_lcd_mcu_ili9328.c.o
- .data          0x0204e000        0x0 ./Debug/tft_lcd_lcd_mcu_hx8352b.c.o
- .data          0x0204e000        0x0 ./Debug/tft_lcd_lcd_mcu_st7789v.c.o
- .data          0x0204e000        0x0 ./Debug/tft_lcd_lcd_mcu_hx8352c.c.o
- .data          0x0204e000        0x0 ./Debug/tft_lcd_lcd_mcu_hx8357b.c.o
- .data          0x0204e000        0x0 ./Debug/tft_lcd_lcd_rgb_ili9806e.c.o
- .data          0x0204e000        0x0 ./Debug/tft_lcd_lcd_rgb_ota5182.c.o
- .data          0x0204e000        0x0 ./Debug/tft_lcd_lcd_rgb_st7701.c.o
- .data          0x0204e000        0x0 ./Debug/tft_lcd_lcd_mcu_lgdp4532.c.o
- .data          0x0204e000        0x0 ./Debug/tft_lcd_lcd_mcu_9225G.c.o
- .data          0x0204e000        0x0 ./Debug/usensor_237a_1.c.o
- .data          0x0204e000        0x0 ./Debug/usensor_usensor.c.o
- .data          0x0204e000        0x0 ./Debug/usensor_237a_2.c.o
- .data          0x0204e000        0x0 ./Debug/nvfs_nvfs.c.o
- .data          0x0204e000        0x0 ./Debug/res_ascii.c.o
- .data          0x0204e000        0x0 ./Debug/res_ascii_default.c.o
- .data          0x0204e000      0x178 ./Debug/res_ascii_default_draw.c.o
-                0x0204e000                ascii_default_table
- .data          0x0204e178        0x0 ./Debug/res_ascii_num2.c.o
- .data          0x0204e178      0x178 ./Debug/res_ascii_num2_draw.c.o
-                0x0204e178                ascii_num2_table
- .data          0x0204e2f0        0x0 ./Debug/res_ascii_num3.c.o
- .data          0x0204e2f0      0x178 ./Debug/res_ascii_num3_draw.c.o
-                0x0204e2f0                ascii_num3_table
- .data          0x0204e468        0x0 ./Debug/res_ascii_num4.c.o
- .data          0x0204e468        0x0 ./Debug/res_ascii_num4_draw.c.o
- .data          0x0204e468        0x0 ./Debug/res_R.c.o
- .data          0x0204e468        0x0 ../bwlib\libavi.a(aviEncoder.o)
- .data          0x0204e468       0x18 ../bwlib\libavi.a(encoder_std.o)
-                0x0204e468                avi_encoder_std
- .data          0x0204e480       0x18 ../bwlib\libavi.a(encoder_odml.o)
-                0x0204e480                avi_encoder_odml
- .data          0x0204e498        0x0 ../bwlib\libfs.a(fs.o)
- .data          0x0204e498        0x0 ../bwlib\libfs.a(diskio.o)
- .data          0x0204e498        0x0 ../bwlib\libfs.a(link_ext.o)
- .data          0x0204e498        0x0 ../bwlib\libfs.a(ff.o)
- .data          0x0204e498        0x0 ../bwlib\libfs.a(ffunicode.o)
- .data          0x0204e498        0x0 ../bwlib\libsd.a(ax32xx_sd.o)
- .data          0x0204e498        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-memcmp.o)
- .data          0x0204e498        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-memcpy.o)
- .data          0x0204e498        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-memset.o)
- .data          0x0204e498        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strcat.o)
- .data          0x0204e498        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strchr.o)
- .data          0x0204e498        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strcmp.o)
- .data          0x0204e498        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strcpy.o)
- .data          0x0204e498        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strlen.o)
- .data          0x0204e498        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strncmp.o)
- .data          0x0204e498        0x0 C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a(_udivdi3.o)
- .data          0x0204e498        0x0 C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a(__udivsi3.o)
- .data          0x0204e498        0x0 C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a(__umodsi3.o)
- .data          0x0204e498        0x0 C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a(_clz.o)
-                0x0204e498                _text_end = .
+ .data          0x0204de9c        0x0 ./Debug/ax32xx_reset.S.o
+ .data          0x0204de9c        0x0 ./Debug/ax32xx_spi_boot_cfg.S.o
+ .data          0x0204de9c        0x0 ./Debug/ax32xx_BLDRX32.S.o
+ .data          0x0204de9c        0x2 ./Debug/main.c.o
+ .data          0x0204de9e        0x0 ./Debug/resource_manager.c.o
+ .data          0x0204de9e        0x0 ./Debug/task_audio_playback.c.o
+ .data          0x0204de9e        0x0 ./Debug/task_audio_record.c.o
+ .data          0x0204de9e        0x0 ./Debug/task_deamon.c.o
+ .data          0x0204de9e        0x1 ./Debug/task_image_encode.c.o
+                0x0204de9e                send_pack_cnt
+ .data          0x0204de9f        0x0 ./Debug/task_main.c.o
+ .data          0x0204de9f        0x0 ./Debug/task_usb.c.o
+ .data          0x0204de9f        0x0 ./Debug/task_video_playback.c.o
+ .data          0x0204de9f        0x0 ./Debug/task_video_record.c.o
+ .data          0x0204de9f        0x0 ./Debug/upgrade.c.o
+ *fill*         0x0204de9f        0x1 
+ .data          0x0204dea0        0x8 ./Debug/board.c.o
+ .data          0x0204dea8        0x1 ./Debug/board_bwv1.c.o
+ .data          0x0204dea9        0x0 ./Debug/config.c.o
+ .data          0x0204dea9        0x0 ./Debug/explorer.c.o
+ *fill*         0x0204dea9        0x3 
+ .data          0x0204deac       0x48 ./Debug/filelist.c.o
+                0x0204deac                filelist
+ .data          0x0204def4        0x0 ./Debug/task_usb_host.c.o
+ .data          0x0204def4        0x0 ./Debug/xos_x_cpu.c.o
+ .data          0x0204def4        0x0 ./Debug/xos_xmbox.c.o
+ .data          0x0204def4        0x0 ./Debug/xos_xmsgq.c.o
+ .data          0x0204def4        0x0 ./Debug/xos_xos.c.o
+ .data          0x0204def4        0x0 ./Debug/xos_xwork.c.o
+ .data          0x0204def4        0x0 ./Debug/multimedia_user_media.c.o
+ .data          0x0204def4        0x0 ./Debug/src_ax32xx_int.c.o
+ .data          0x0204def4        0x0 ./Debug/src_ax32xx_sys.c.o
+ .data          0x0204def4        0x0 ./Debug/src_ax32xx_dma.c.o
+ .data          0x0204def4        0x0 ./Debug/src_ax32xx_wdt.c.o
+ .data          0x0204def4        0x0 ./Debug/src_ax32xx_gpio.c.o
+ .data          0x0204def4        0x0 ./Debug/src_ax32xx_uart.c.o
+ .data          0x0204def4        0x0 ./Debug/src_ax32xx_timer.c.o
+ .data          0x0204def4        0x0 ./Debug/src_ax32xx_tminf.c.o
+ .data          0x0204def4        0x0 ./Debug/src_ax32xx_spi.c.o
+ .data          0x0204def4        0x0 ./Debug/src_ax32xx_rtc.c.o
+ .data          0x0204def4        0x0 ./Debug/src_ax32xx_md.c.o
+ .data          0x0204def4        0x0 ./Debug/src_ax32xx_iic.c.o
+ .data          0x0204def4        0x0 ./Debug/src_ax32xx_dac.c.o
+ .data          0x0204def4        0x0 ./Debug/src_ax32xx_adc.c.o
+ .data          0x0204def4        0x0 ./Debug/src_ax32xx_auadc.c.o
+ .data          0x0204def4        0x0 ./Debug/src_ax32xx_isp.c.o
+ .data          0x0204def4        0x0 ./Debug/src_jpeg_table.c.o
+ .data          0x0204def4       0x24 ./Debug/src_isp_tab.c.o
+                0x0204def4                color_cpr_step
+                0x0204df08                ylogstep
+ .data          0x0204df18        0x0 ./Debug/src_ax32xx_usb.c.o
+ .data          0x0204df18        0x0 ./Debug/src_ax32xx_misc.c.o
+ .data          0x0204df18        0x0 ./Debug/src_ax32xx_pip.c.o
+ .data          0x0204df18        0x0 ./Debug/src_ax32xx_btuart.c.o
+ .data          0x0204df18        0x0 ./Debug/src_ax32xx_crc.c.o
+ .data          0x0204df18        0x0 ./Debug/src_ax32xx_emi.c.o
+ .data          0x0204df18        0x0 ./Debug/src_ax32xx_rotate.c.o
+ .data          0x0204df18        0x0 ./Debug/src_ax32xx_osdcmp.c.o
+ .data          0x0204df18        0x0 ./Debug/osd_ax32xx_osd.c.o
+ .data          0x0204df18        0x0 ./Debug/csi_ax32xx_csi.c.o
+ .data          0x0204df18        0x0 ./Debug/lcd_ax32xx_lcd.c.o
+ .data          0x0204df18        0x0 ./Debug/mjpeg_ax32xx_mjpeg.c.o
+ .data          0x0204df18        0x0 ./Debug/src_hal_adc.c.o
+ .data          0x0204df18        0x0 ./Debug/src_hal_csi.c.o
+ .data          0x0204df18        0x0 ./Debug/src_hal_dac.c.o
+ .data          0x0204df18        0x0 ./Debug/src_hal_eeprom.c.o
+ .data          0x0204df18        0x0 ./Debug/src_hal_gpio.c.o
+ .data          0x0204df18        0x0 ./Debug/src_hal_iic.c.o
+ .data          0x0204df18        0x0 ./Debug/src_hal_lcd.c.o
+ .data          0x0204df18        0x0 ./Debug/src_hal_md.c.o
+ .data          0x0204df18        0x0 ./Debug/src_hal_osd.c.o
+ .data          0x0204df18        0x0 ./Debug/src_hal_rtc.c.o
+ .data          0x0204df18        0x0 ./Debug/src_hal_sd.c.o
+ .data          0x0204df18        0x0 ./Debug/src_hal_spi.c.o
+ .data          0x0204df18        0x0 ./Debug/src_hal_timer.c.o
+ .data          0x0204df18        0x0 ./Debug/src_hal_uart.c.o
+ .data          0x0204df18       0x3c ./Debug/src_hal_watermark.c.o
+ .data          0x0204df54        0x0 ./Debug/src_hal_sys.c.o
+ .data          0x0204df54        0x0 ./Debug/src_hal_auadc.c.o
+ .data          0x0204df54        0x0 ./Debug/src_hal_mjpeg.c.o
+ .data          0x0204df54        0x0 ./Debug/src_hal_int.c.o
+ .data          0x0204df54        0x0 ./Debug/src_hal_wdt.c.o
+ .data          0x0204df54        0x0 ./Debug/src_hal_stream.c.o
+ .data          0x0204df54        0x0 ./Debug/src_hal_emi.c.o
+ .data          0x0204df54        0x0 ./Debug/src_hal_mjpegB.c.o
+ .data          0x0204df54        0x0 ./Debug/src_hal_osdcmp.c.o
+ .data          0x0204df54        0x0 ./Debug/src_hal_rotate.c.o
+ .data          0x0204df54        0x0 ./Debug/src_hal_lcdframe.c.o
+ .data          0x0204df54        0x2 ./Debug/isp_hal_isp.c.o
+ .data          0x0204df56        0x0 ./Debug/dusb_hal_usb_api.c.o
+ .data          0x0204df56        0x0 ./Debug/dusb_hal_usb_dev_enum.c.o
+ .data          0x0204df56        0x0 ./Debug/dusb_hal_usb_msc.c.o
+ .data          0x0204df56        0x0 ./Debug/dusb_hal_usb_uac.c.o
+ *fill*         0x0204df56        0x2 
+ .data          0x0204df58       0x28 ./Debug/dusb_hal_usb_uvc.c.o
+                0x0204df58                UVC_Still_Probe_Commit
+                0x0204df64                uvc_video_probe_commit_value
+ .data          0x0204df80        0x0 ./Debug/husb_hal_usb_host_api.c.o
+ .data          0x0204df80        0x0 ./Debug/husb_hal_usb_host_enum.c.o
+ .data          0x0204df80        0x0 ./Debug/husb_hal_usb_host_tpbulk.c.o
+ .data          0x0204df80        0x0 ./Debug/husb_hal_usb_host_uvc.c.o
+ .data          0x0204df80        0x0 ./Debug/husb_hal_usensor.c.o
+ .data          0x0204df80        0x0 ./Debug/audio_audio_playback.c.o
+ .data          0x0204df80        0x0 ./Debug/audio_audio_record.c.o
+ .data          0x0204df80        0x0 ./Debug/audio_ring_buffer.c.o
+ .data          0x0204df80        0x0 ./Debug/video_video_playback.c.o
+ .data          0x0204df80        0x0 ./Debug/video_video_record.c.o
+ .data          0x0204df80        0x0 ./Debug/video_video_record_B.c.o
+ .data          0x0204df80        0x0 ./Debug/image_image_decode.c.o
+ .data          0x0204df80        0x0 ./Debug/image_image_encode.c.o
+ .data          0x0204df80        0x0 ./Debug/wav_alaw.c.o
+ .data          0x0204df80        0x0 ./Debug/wav_imaadpcm.c.o
+ .data          0x0204df80        0x0 ./Debug/wav_pcm.c.o
+ .data          0x0204df80        0x0 ./Debug/wav_ulaw.c.o
+ .data          0x0204df80        0x0 ./Debug/wav_wav.c.o
+ .data          0x0204df80        0x0 ./Debug/stream_stream.c.o
+ .data          0x0204df80        0x0 ./Debug/uartcom_uartcom.c.o
+ .data          0x0204df80        0x0 ./Debug/uartcom_uartCrc.c.o
+ .data          0x0204df80        0x0 ./Debug/gsensor_G_gma301.c.o
+ .data          0x0204df80        0x0 ./Debug/gsensor_gsensor.c.o
+ .data          0x0204df80        0x0 ./Debug/gsensor_G_sc7a30e.c.o
+ .data          0x0204df80        0x0 ./Debug/gsensor_g_da380.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_cmos_sensor.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_BF3a03.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_BF2013.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_BF3016.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_BF3703.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_GC0307.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_GC0308.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_GC0309.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_GC0328.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_GC1004.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_H42.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_H7640.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_HM1055.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_IT03A1.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_NT99141.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_NT99142.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_OV7670.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_OV7725.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_OV9710.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_OV9732.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_SC1045.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_SIV100B.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_SIV120B.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_SIV121DS.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_SP1409.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_H62.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_GC1034.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_OV7736.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_SP140A.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_GC1054.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_GC1064.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_H65.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_SC1243.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SNESOR_FPX1002.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_H63P.c.o
+ .data          0x0204df80        0x0 ./Debug/cmos_sensor_SENSOR_BF20A6.c.o
+ .data          0x0204df80        0x0 ./Debug/tft_lcd_lcd_mcu_st7789.c.o
+ .data          0x0204df80        0x0 ./Debug/tft_lcd_lcd_rgb_jl_lcd.c.o
+ .data          0x0204df80        0x0 ./Debug/tft_lcd_lcd_rgb_st7282.c.o
+ .data          0x0204df80        0x0 ./Debug/tft_lcd_tft_lcd.c.o
+ .data          0x0204df80        0x0 ./Debug/tft_lcd_lcd_mcu_5420.c.o
+ .data          0x0204df80        0x0 ./Debug/tft_lcd_lcd_mcu_r61509v.c.o
+ .data          0x0204df80        0x0 ./Debug/tft_lcd_lcd_rgb_ili8961.c.o
+ .data          0x0204df80        0x0 ./Debug/tft_lcd_lcd_rgb_ili9342c.c.o
+ .data          0x0204df80        0x0 ./Debug/tft_lcd_lcd_mcu_ili9328.c.o
+ .data          0x0204df80        0x0 ./Debug/tft_lcd_lcd_mcu_hx8352b.c.o
+ .data          0x0204df80        0x0 ./Debug/tft_lcd_lcd_mcu_st7789v.c.o
+ .data          0x0204df80        0x0 ./Debug/tft_lcd_lcd_mcu_hx8352c.c.o
+ .data          0x0204df80        0x0 ./Debug/tft_lcd_lcd_mcu_hx8357b.c.o
+ .data          0x0204df80        0x0 ./Debug/tft_lcd_lcd_rgb_ili9806e.c.o
+ .data          0x0204df80        0x0 ./Debug/tft_lcd_lcd_rgb_ota5182.c.o
+ .data          0x0204df80        0x0 ./Debug/tft_lcd_lcd_rgb_st7701.c.o
+ .data          0x0204df80        0x0 ./Debug/tft_lcd_lcd_mcu_lgdp4532.c.o
+ .data          0x0204df80        0x0 ./Debug/tft_lcd_lcd_mcu_9225G.c.o
+ .data          0x0204df80        0x0 ./Debug/usensor_237a_1.c.o
+ .data          0x0204df80        0x0 ./Debug/usensor_usensor.c.o
+ .data          0x0204df80        0x0 ./Debug/usensor_237a_2.c.o
+ .data          0x0204df80        0x0 ./Debug/nvfs_nvfs.c.o
+ .data          0x0204df80        0x0 ./Debug/res_ascii.c.o
+ .data          0x0204df80        0x0 ./Debug/res_ascii_default.c.o
+ .data          0x0204df80      0x178 ./Debug/res_ascii_default_draw.c.o
+                0x0204df80                ascii_default_table
+ .data          0x0204e0f8        0x0 ./Debug/res_ascii_num2.c.o
+ .data          0x0204e0f8      0x178 ./Debug/res_ascii_num2_draw.c.o
+                0x0204e0f8                ascii_num2_table
+ .data          0x0204e270        0x0 ./Debug/res_ascii_num3.c.o
+ .data          0x0204e270      0x178 ./Debug/res_ascii_num3_draw.c.o
+                0x0204e270                ascii_num3_table
+ .data          0x0204e3e8        0x0 ./Debug/res_ascii_num4.c.o
+ .data          0x0204e3e8        0x0 ./Debug/res_ascii_num4_draw.c.o
+ .data          0x0204e3e8        0x0 ./Debug/res_R.c.o
+ .data          0x0204e3e8        0x0 ../bwlib\libavi.a(aviEncoder.o)
+ .data          0x0204e3e8       0x18 ../bwlib\libavi.a(encoder_std.o)
+                0x0204e3e8                avi_encoder_std
+ .data          0x0204e400       0x18 ../bwlib\libavi.a(encoder_odml.o)
+                0x0204e400                avi_encoder_odml
+ .data          0x0204e418        0x0 ../bwlib\libfs.a(fs.o)
+ .data          0x0204e418        0x0 ../bwlib\libfs.a(diskio.o)
+ .data          0x0204e418        0x0 ../bwlib\libfs.a(link_ext.o)
+ .data          0x0204e418        0x0 ../bwlib\libfs.a(ff.o)
+ .data          0x0204e418        0x0 ../bwlib\libfs.a(ffunicode.o)
+ .data          0x0204e418        0x0 ../bwlib\libsd.a(ax32xx_sd.o)
+ .data          0x0204e418        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-memcmp.o)
+ .data          0x0204e418        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-memcpy.o)
+ .data          0x0204e418        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-memset.o)
+ .data          0x0204e418        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strcat.o)
+ .data          0x0204e418        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strchr.o)
+ .data          0x0204e418        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strcmp.o)
+ .data          0x0204e418        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strcpy.o)
+ .data          0x0204e418        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strlen.o)
+ .data          0x0204e418        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strncmp.o)
+ .data          0x0204e418        0x0 C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a(_udivdi3.o)
+ .data          0x0204e418        0x0 C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a(__udivsi3.o)
+ .data          0x0204e418        0x0 C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a(__umodsi3.o)
+ .data          0x0204e418        0x0 C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a(_clz.o)
+                0x0204e418                _text_end = .
 
-.bss            0x0204e498    0x18c64 load address 0x00050c98
-                0x0204e498                __bss_start = .
+.bss            0x0204e418    0x18c64 load address 0x00050c18
+                0x0204e418                __bss_start = .
  *(.bss*)
- .bss           0x0204e498        0x0 ./Debug/ax32xx_reset.S.o
- .bss           0x0204e498        0x0 ./Debug/ax32xx_spi_boot_cfg.S.o
- .bss           0x0204e498        0x0 ./Debug/ax32xx_BLDRX32.S.o
- .bss           0x0204e498       0x28 ./Debug/main.c.o
- .bss           0x0204e4c0       0x88 ./Debug/resource_manager.c.o
- .bss           0x0204e548        0x0 ./Debug/task_audio_playback.c.o
- .bss           0x0204e548        0x4 ./Debug/task_audio_record.c.o
- .bss           0x0204e54c       0x10 ./Debug/task_deamon.c.o
- .bss           0x0204e55c        0x8 ./Debug/task_image_encode.c.o
-                0x0204e55c                cut_sdr_data_addr
-                0x0204e560                cut_sdr_data_en
- .bss           0x0204e564        0x4 ./Debug/task_main.c.o
- .bss           0x0204e568        0x0 ./Debug/task_usb.c.o
- .bss           0x0204e568        0x0 ./Debug/task_video_playback.c.o
- .bss           0x0204e568        0xc ./Debug/task_video_record.c.o
- .bss           0x0204e574        0x0 ./Debug/upgrade.c.o
- .bss           0x0204e574        0x0 ./Debug/board.c.o
- .bss           0x0204e574       0x14 ./Debug/board_bwv1.c.o
- *fill*         0x0204e588       0x18 
- .bss           0x0204e5a0      0x220 ./Debug/config.c.o
- .bss           0x0204e7c0        0x0 ./Debug/explorer.c.o
- .bss           0x0204e7c0     0x7d88 ./Debug/filelist.c.o
- .bss           0x02056548        0x0 ./Debug/task_usb_host.c.o
- .bss           0x02056548        0x0 ./Debug/xos_x_cpu.c.o
- .bss           0x02056548       0x40 ./Debug/xos_xmbox.c.o
- .bss           0x02056588        0x0 ./Debug/xos_xmsgq.c.o
- .bss           0x02056588        0x8 ./Debug/xos_xos.c.o
- .bss           0x02056590       0x80 ./Debug/xos_xwork.c.o
- .bss           0x02056610        0x0 ./Debug/multimedia_user_media.c.o
- .bss           0x02056610        0x0 ./Debug/src_ax32xx_int.c.o
- .bss           0x02056610        0x0 ./Debug/src_ax32xx_sys.c.o
- .bss           0x02056610        0x1 ./Debug/src_ax32xx_dma.c.o
- .bss           0x02056611        0x0 ./Debug/src_ax32xx_wdt.c.o
- *fill*         0x02056611        0x3 
- .bss           0x02056614       0x6c ./Debug/src_ax32xx_gpio.c.o
- .bss           0x02056680        0x8 ./Debug/src_ax32xx_uart.c.o
- .bss           0x02056688        0x0 ./Debug/src_ax32xx_timer.c.o
- .bss           0x02056688       0x28 ./Debug/src_ax32xx_tminf.c.o
- .bss           0x020566b0        0x0 ./Debug/src_ax32xx_spi.c.o
- .bss           0x020566b0        0x0 ./Debug/src_ax32xx_rtc.c.o
- .bss           0x020566b0        0x0 ./Debug/src_ax32xx_md.c.o
- .bss           0x020566b0        0x0 ./Debug/src_ax32xx_iic.c.o
- .bss           0x020566b0        0x4 ./Debug/src_ax32xx_dac.c.o
- .bss           0x020566b4        0x0 ./Debug/src_ax32xx_adc.c.o
- .bss           0x020566b4        0x8 ./Debug/src_ax32xx_auadc.c.o
- .bss           0x020566bc        0x0 ./Debug/src_ax32xx_isp.c.o
- .bss           0x020566bc        0x1 ./Debug/src_jpeg_table.c.o
- .bss           0x020566bd        0x0 ./Debug/src_isp_tab.c.o
- *fill*         0x020566bd        0x3 
- .bss           0x020566c0        0xc ./Debug/src_ax32xx_usb.c.o
- .bss           0x020566cc        0x0 ./Debug/src_ax32xx_misc.c.o
- .bss           0x020566cc        0x0 ./Debug/src_ax32xx_pip.c.o
- .bss           0x020566cc        0x0 ./Debug/src_ax32xx_btuart.c.o
- .bss           0x020566cc        0x0 ./Debug/src_ax32xx_crc.c.o
- .bss           0x020566cc        0x4 ./Debug/src_ax32xx_emi.c.o
- .bss           0x020566d0        0x0 ./Debug/src_ax32xx_rotate.c.o
- .bss           0x020566d0        0x0 ./Debug/src_ax32xx_osdcmp.c.o
- .bss           0x020566d0        0x0 ./Debug/osd_ax32xx_osd.c.o
- .bss           0x020566d0       0x34 ./Debug/csi_ax32xx_csi.c.o
- .bss           0x02056704        0x0 ./Debug/lcd_ax32xx_lcd.c.o
- .bss           0x02056704       0x30 ./Debug/mjpeg_ax32xx_mjpeg.c.o
- .bss           0x02056734        0x0 ./Debug/src_hal_adc.c.o
- .bss           0x02056734        0x0 ./Debug/src_hal_csi.c.o
- .bss           0x02056734        0x8 ./Debug/src_hal_dac.c.o
- .bss           0x0205673c        0x0 ./Debug/src_hal_eeprom.c.o
- .bss           0x0205673c        0x0 ./Debug/src_hal_gpio.c.o
- .bss           0x0205673c        0x2 ./Debug/src_hal_iic.c.o
- .bss           0x0205673e        0x0 ./Debug/src_hal_lcd.c.o
- *fill*         0x0205673e        0x2 
- .bss           0x02056740        0x8 ./Debug/src_hal_md.c.o
- .bss           0x02056748        0x0 ./Debug/src_hal_osd.c.o
- .bss           0x02056748       0x34 ./Debug/src_hal_rtc.c.o
- .bss           0x0205677c       0x10 ./Debug/src_hal_sd.c.o
- .bss           0x0205678c        0x0 ./Debug/src_hal_spi.c.o
- .bss           0x0205678c        0x0 ./Debug/src_hal_timer.c.o
- .bss           0x0205678c        0x8 ./Debug/src_hal_uart.c.o
- .bss           0x02056794       0x10 ./Debug/src_hal_watermark.c.o
- .bss           0x020567a4      0x214 ./Debug/src_hal_sys.c.o
- .bss           0x020569b8      0x330 ./Debug/src_hal_auadc.c.o
-                0x020569b8                auadccnt
- .bss           0x02056ce8     0x1c68 ./Debug/src_hal_mjpeg.c.o
-                0x02056ce8                ispmode_tmp
- .bss           0x02058950        0x0 ./Debug/src_hal_int.c.o
- .bss           0x02058950        0x0 ./Debug/src_hal_wdt.c.o
- .bss           0x02058950        0x0 ./Debug/src_hal_stream.c.o
- .bss           0x02058950        0x0 ./Debug/src_hal_emi.c.o
- .bss           0x02058950        0x0 ./Debug/src_hal_mjpegB.c.o
- .bss           0x02058950        0x0 ./Debug/src_hal_osdcmp.c.o
- .bss           0x02058950        0x0 ./Debug/src_hal_rotate.c.o
- .bss           0x02058950        0x0 ./Debug/src_hal_lcdframe.c.o
- .bss           0x02058950       0xc8 ./Debug/isp_hal_isp.c.o
- .bss           0x02058a18        0x8 ./Debug/dusb_hal_usb_api.c.o
- .bss           0x02058a20       0x10 ./Debug/dusb_hal_usb_dev_enum.c.o
- .bss           0x02058a30        0x0 ./Debug/dusb_hal_usb_msc.c.o
- .bss           0x02058a30        0x0 ./Debug/dusb_hal_usb_uac.c.o
- .bss           0x02058a30        0x1 ./Debug/dusb_hal_usb_uvc.c.o
- .bss           0x02058a31        0x0 ./Debug/husb_hal_usb_host_api.c.o
- .bss           0x02058a31        0x0 ./Debug/husb_hal_usb_host_enum.c.o
- .bss           0x02058a31        0x0 ./Debug/husb_hal_usb_host_tpbulk.c.o
- .bss           0x02058a31        0x0 ./Debug/husb_hal_usb_host_uvc.c.o
- .bss           0x02058a31        0x0 ./Debug/husb_hal_usensor.c.o
- *fill*         0x02058a31        0x3 
- .bss           0x02058a34       0x30 ./Debug/audio_audio_playback.c.o
- .bss           0x02058a64       0x24 ./Debug/audio_audio_record.c.o
- .bss           0x02058a88       0x28 ./Debug/audio_ring_buffer.c.o
- .bss           0x02058ab0        0x0 ./Debug/video_video_playback.c.o
- .bss           0x02058ab0        0x4 ./Debug/video_video_record.c.o
- .bss           0x02058ab4        0x0 ./Debug/video_video_record_B.c.o
- .bss           0x02058ab4        0x0 ./Debug/image_image_decode.c.o
- .bss           0x02058ab4        0x0 ./Debug/image_image_encode.c.o
- .bss           0x02058ab4        0x0 ./Debug/wav_alaw.c.o
- .bss           0x02058ab4        0x0 ./Debug/wav_imaadpcm.c.o
- .bss           0x02058ab4        0x0 ./Debug/wav_pcm.c.o
- .bss           0x02058ab4        0x0 ./Debug/wav_ulaw.c.o
- .bss           0x02058ab4       0xcc ./Debug/wav_wav.c.o
- .bss           0x02058b80        0x0 ./Debug/stream_stream.c.o
- .bss           0x02058b80       0x20 ./Debug/uartcom_uartcom.c.o
- .bss           0x02058ba0        0x0 ./Debug/uartcom_uartCrc.c.o
- .bss           0x02058ba0        0x0 ./Debug/gsensor_G_gma301.c.o
- .bss           0x02058ba0        0x0 ./Debug/gsensor_gsensor.c.o
- .bss           0x02058ba0        0x0 ./Debug/gsensor_G_sc7a30e.c.o
- .bss           0x02058ba0        0x0 ./Debug/gsensor_g_da380.c.o
- .bss           0x02058ba0     0x1040 ./Debug/cmos_sensor_cmos_sensor.c.o
-                0x02058ba0                cmos_sensor_id
-                0x02058ba4                devSensorInit
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_BF3a03.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_BF2013.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_BF3016.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_BF3703.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_GC0307.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_GC0308.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_GC0309.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_GC0328.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_GC1004.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_H42.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_H7640.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_HM1055.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_IT03A1.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_NT99141.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_NT99142.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_OV7670.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_OV7725.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_OV9710.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_OV9732.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_SC1045.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_SIV100B.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_SIV120B.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_SIV121DS.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_SP1409.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_H62.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_GC1034.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_OV7736.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_SP140A.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_GC1054.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_GC1064.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_H65.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_SC1243.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SNESOR_FPX1002.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_H63P.c.o
- .bss           0x02059be0        0x0 ./Debug/cmos_sensor_SENSOR_BF20A6.c.o
- .bss           0x02059be0        0x0 ./Debug/tft_lcd_lcd_mcu_st7789.c.o
- .bss           0x02059be0        0x0 ./Debug/tft_lcd_lcd_rgb_jl_lcd.c.o
- .bss           0x02059be0        0x0 ./Debug/tft_lcd_lcd_rgb_st7282.c.o
- .bss           0x02059be0        0x0 ./Debug/tft_lcd_tft_lcd.c.o
- .bss           0x02059be0        0x0 ./Debug/tft_lcd_lcd_mcu_5420.c.o
- .bss           0x02059be0        0x0 ./Debug/tft_lcd_lcd_mcu_r61509v.c.o
- .bss           0x02059be0        0x0 ./Debug/tft_lcd_lcd_rgb_ili8961.c.o
- .bss           0x02059be0        0x0 ./Debug/tft_lcd_lcd_rgb_ili9342c.c.o
- .bss           0x02059be0        0x0 ./Debug/tft_lcd_lcd_mcu_ili9328.c.o
- .bss           0x02059be0        0x0 ./Debug/tft_lcd_lcd_mcu_hx8352b.c.o
- .bss           0x02059be0        0x0 ./Debug/tft_lcd_lcd_mcu_st7789v.c.o
- .bss           0x02059be0        0x0 ./Debug/tft_lcd_lcd_mcu_hx8352c.c.o
- .bss           0x02059be0        0x0 ./Debug/tft_lcd_lcd_mcu_hx8357b.c.o
- .bss           0x02059be0        0x0 ./Debug/tft_lcd_lcd_rgb_ili9806e.c.o
- .bss           0x02059be0        0x0 ./Debug/tft_lcd_lcd_rgb_ota5182.c.o
- .bss           0x02059be0        0x0 ./Debug/tft_lcd_lcd_rgb_st7701.c.o
- .bss           0x02059be0        0x0 ./Debug/tft_lcd_lcd_mcu_lgdp4532.c.o
- .bss           0x02059be0        0x0 ./Debug/tft_lcd_lcd_mcu_9225G.c.o
- .bss           0x02059be0        0x0 ./Debug/usensor_237a_1.c.o
- .bss           0x02059be0        0x0 ./Debug/usensor_usensor.c.o
- .bss           0x02059be0        0x0 ./Debug/usensor_237a_2.c.o
- .bss           0x02059be0       0x18 ./Debug/nvfs_nvfs.c.o
- .bss           0x02059bf8        0x0 ./Debug/res_ascii.c.o
- .bss           0x02059bf8        0x0 ./Debug/res_ascii_default.c.o
- .bss           0x02059bf8        0x0 ./Debug/res_ascii_default_draw.c.o
- .bss           0x02059bf8        0x0 ./Debug/res_ascii_num2.c.o
- .bss           0x02059bf8        0x0 ./Debug/res_ascii_num2_draw.c.o
- .bss           0x02059bf8        0x0 ./Debug/res_ascii_num3.c.o
- .bss           0x02059bf8        0x0 ./Debug/res_ascii_num3_draw.c.o
- .bss           0x02059bf8        0x0 ./Debug/res_ascii_num4.c.o
- .bss           0x02059bf8        0x0 ./Debug/res_ascii_num4_draw.c.o
- .bss           0x02059bf8        0x0 ./Debug/res_R.c.o
- .bss           0x02059bf8       0x68 ../bwlib\libavi.a(aviEncoder.o)
- .bss           0x02059c60        0x0 ../bwlib\libavi.a(encoder_std.o)
- .bss           0x02059c60        0x0 ../bwlib\libavi.a(encoder_odml.o)
- .bss           0x02059c60      0x920 ../bwlib\libfs.a(fs.o)
- .bss           0x0205a580        0x0 ../bwlib\libfs.a(diskio.o)
- .bss           0x0205a580        0x0 ../bwlib\libfs.a(link_ext.o)
- .bss           0x0205a580      0x46c ../bwlib\libfs.a(ff.o)
- .bss           0x0205a9ec        0x0 ../bwlib\libfs.a(ffunicode.o)
- .bss           0x0205a9ec        0x0 ../bwlib\libsd.a(ax32xx_sd.o)
- .bss           0x0205a9ec        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-memcmp.o)
- .bss           0x0205a9ec        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-memcpy.o)
- .bss           0x0205a9ec        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-memset.o)
- .bss           0x0205a9ec        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strcat.o)
- .bss           0x0205a9ec        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strchr.o)
- .bss           0x0205a9ec        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strcmp.o)
- .bss           0x0205a9ec        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strcpy.o)
- .bss           0x0205a9ec        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strlen.o)
- .bss           0x0205a9ec        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strncmp.o)
- .bss           0x0205a9ec        0x0 C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a(_udivdi3.o)
- .bss           0x0205a9ec        0x0 C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a(__udivsi3.o)
- .bss           0x0205a9ec        0x0 C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a(__umodsi3.o)
- .bss           0x0205a9ec        0x0 C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a(_clz.o)
+ .bss           0x0204e418        0x0 ./Debug/ax32xx_reset.S.o
+ .bss           0x0204e418        0x0 ./Debug/ax32xx_spi_boot_cfg.S.o
+ .bss           0x0204e418        0x0 ./Debug/ax32xx_BLDRX32.S.o
+ .bss           0x0204e418       0x28 ./Debug/main.c.o
+ .bss           0x0204e440       0x88 ./Debug/resource_manager.c.o
+ .bss           0x0204e4c8        0x0 ./Debug/task_audio_playback.c.o
+ .bss           0x0204e4c8        0x4 ./Debug/task_audio_record.c.o
+ .bss           0x0204e4cc       0x10 ./Debug/task_deamon.c.o
+ .bss           0x0204e4dc        0x8 ./Debug/task_image_encode.c.o
+                0x0204e4dc                cut_sdr_data_addr
+                0x0204e4e0                cut_sdr_data_en
+ .bss           0x0204e4e4        0x4 ./Debug/task_main.c.o
+ .bss           0x0204e4e8        0x0 ./Debug/task_usb.c.o
+ .bss           0x0204e4e8        0x0 ./Debug/task_video_playback.c.o
+ .bss           0x0204e4e8        0xc ./Debug/task_video_record.c.o
+ .bss           0x0204e4f4        0x0 ./Debug/upgrade.c.o
+ .bss           0x0204e4f4        0x0 ./Debug/board.c.o
+ .bss           0x0204e4f4       0x14 ./Debug/board_bwv1.c.o
+ *fill*         0x0204e508       0x18 
+ .bss           0x0204e520      0x220 ./Debug/config.c.o
+ .bss           0x0204e740        0x0 ./Debug/explorer.c.o
+ .bss           0x0204e740     0x7d88 ./Debug/filelist.c.o
+ .bss           0x020564c8        0x0 ./Debug/task_usb_host.c.o
+ .bss           0x020564c8        0x0 ./Debug/xos_x_cpu.c.o
+ .bss           0x020564c8       0x40 ./Debug/xos_xmbox.c.o
+ .bss           0x02056508        0x0 ./Debug/xos_xmsgq.c.o
+ .bss           0x02056508        0x8 ./Debug/xos_xos.c.o
+ .bss           0x02056510       0x80 ./Debug/xos_xwork.c.o
+ .bss           0x02056590        0x0 ./Debug/multimedia_user_media.c.o
+ .bss           0x02056590        0x0 ./Debug/src_ax32xx_int.c.o
+ .bss           0x02056590        0x0 ./Debug/src_ax32xx_sys.c.o
+ .bss           0x02056590        0x1 ./Debug/src_ax32xx_dma.c.o
+ .bss           0x02056591        0x0 ./Debug/src_ax32xx_wdt.c.o
+ *fill*         0x02056591        0x3 
+ .bss           0x02056594       0x6c ./Debug/src_ax32xx_gpio.c.o
+ .bss           0x02056600        0x8 ./Debug/src_ax32xx_uart.c.o
+ .bss           0x02056608        0x0 ./Debug/src_ax32xx_timer.c.o
+ .bss           0x02056608       0x28 ./Debug/src_ax32xx_tminf.c.o
+ .bss           0x02056630        0x0 ./Debug/src_ax32xx_spi.c.o
+ .bss           0x02056630        0x0 ./Debug/src_ax32xx_rtc.c.o
+ .bss           0x02056630        0x0 ./Debug/src_ax32xx_md.c.o
+ .bss           0x02056630        0x0 ./Debug/src_ax32xx_iic.c.o
+ .bss           0x02056630        0x4 ./Debug/src_ax32xx_dac.c.o
+ .bss           0x02056634        0x0 ./Debug/src_ax32xx_adc.c.o
+ .bss           0x02056634        0x8 ./Debug/src_ax32xx_auadc.c.o
+ .bss           0x0205663c        0x0 ./Debug/src_ax32xx_isp.c.o
+ .bss           0x0205663c        0x1 ./Debug/src_jpeg_table.c.o
+ .bss           0x0205663d        0x0 ./Debug/src_isp_tab.c.o
+ *fill*         0x0205663d        0x3 
+ .bss           0x02056640        0xc ./Debug/src_ax32xx_usb.c.o
+ .bss           0x0205664c        0x0 ./Debug/src_ax32xx_misc.c.o
+ .bss           0x0205664c        0x0 ./Debug/src_ax32xx_pip.c.o
+ .bss           0x0205664c        0x0 ./Debug/src_ax32xx_btuart.c.o
+ .bss           0x0205664c        0x0 ./Debug/src_ax32xx_crc.c.o
+ .bss           0x0205664c        0x4 ./Debug/src_ax32xx_emi.c.o
+ .bss           0x02056650        0x0 ./Debug/src_ax32xx_rotate.c.o
+ .bss           0x02056650        0x0 ./Debug/src_ax32xx_osdcmp.c.o
+ .bss           0x02056650        0x0 ./Debug/osd_ax32xx_osd.c.o
+ .bss           0x02056650       0x34 ./Debug/csi_ax32xx_csi.c.o
+ .bss           0x02056684        0x0 ./Debug/lcd_ax32xx_lcd.c.o
+ .bss           0x02056684       0x30 ./Debug/mjpeg_ax32xx_mjpeg.c.o
+ .bss           0x020566b4        0x0 ./Debug/src_hal_adc.c.o
+ .bss           0x020566b4        0x0 ./Debug/src_hal_csi.c.o
+ .bss           0x020566b4        0x8 ./Debug/src_hal_dac.c.o
+ .bss           0x020566bc        0x0 ./Debug/src_hal_eeprom.c.o
+ .bss           0x020566bc        0x0 ./Debug/src_hal_gpio.c.o
+ .bss           0x020566bc        0x2 ./Debug/src_hal_iic.c.o
+ .bss           0x020566be        0x0 ./Debug/src_hal_lcd.c.o
+ *fill*         0x020566be        0x2 
+ .bss           0x020566c0        0x8 ./Debug/src_hal_md.c.o
+ .bss           0x020566c8        0x0 ./Debug/src_hal_osd.c.o
+ .bss           0x020566c8       0x34 ./Debug/src_hal_rtc.c.o
+ .bss           0x020566fc       0x10 ./Debug/src_hal_sd.c.o
+ .bss           0x0205670c        0x0 ./Debug/src_hal_spi.c.o
+ .bss           0x0205670c        0x0 ./Debug/src_hal_timer.c.o
+ .bss           0x0205670c        0x8 ./Debug/src_hal_uart.c.o
+ .bss           0x02056714       0x10 ./Debug/src_hal_watermark.c.o
+ .bss           0x02056724      0x214 ./Debug/src_hal_sys.c.o
+ .bss           0x02056938      0x330 ./Debug/src_hal_auadc.c.o
+                0x02056938                auadccnt
+ .bss           0x02056c68     0x1c68 ./Debug/src_hal_mjpeg.c.o
+                0x02056c68                ispmode_tmp
+ .bss           0x020588d0        0x0 ./Debug/src_hal_int.c.o
+ .bss           0x020588d0        0x0 ./Debug/src_hal_wdt.c.o
+ .bss           0x020588d0        0x0 ./Debug/src_hal_stream.c.o
+ .bss           0x020588d0        0x0 ./Debug/src_hal_emi.c.o
+ .bss           0x020588d0        0x0 ./Debug/src_hal_mjpegB.c.o
+ .bss           0x020588d0        0x0 ./Debug/src_hal_osdcmp.c.o
+ .bss           0x020588d0        0x0 ./Debug/src_hal_rotate.c.o
+ .bss           0x020588d0        0x0 ./Debug/src_hal_lcdframe.c.o
+ .bss           0x020588d0       0xc8 ./Debug/isp_hal_isp.c.o
+ .bss           0x02058998        0x8 ./Debug/dusb_hal_usb_api.c.o
+ .bss           0x020589a0       0x10 ./Debug/dusb_hal_usb_dev_enum.c.o
+ .bss           0x020589b0        0x0 ./Debug/dusb_hal_usb_msc.c.o
+ .bss           0x020589b0        0x0 ./Debug/dusb_hal_usb_uac.c.o
+ .bss           0x020589b0        0x1 ./Debug/dusb_hal_usb_uvc.c.o
+ .bss           0x020589b1        0x0 ./Debug/husb_hal_usb_host_api.c.o
+ .bss           0x020589b1        0x0 ./Debug/husb_hal_usb_host_enum.c.o
+ .bss           0x020589b1        0x0 ./Debug/husb_hal_usb_host_tpbulk.c.o
+ .bss           0x020589b1        0x0 ./Debug/husb_hal_usb_host_uvc.c.o
+ .bss           0x020589b1        0x0 ./Debug/husb_hal_usensor.c.o
+ *fill*         0x020589b1        0x3 
+ .bss           0x020589b4       0x30 ./Debug/audio_audio_playback.c.o
+ .bss           0x020589e4       0x24 ./Debug/audio_audio_record.c.o
+ .bss           0x02058a08       0x28 ./Debug/audio_ring_buffer.c.o
+ .bss           0x02058a30        0x0 ./Debug/video_video_playback.c.o
+ .bss           0x02058a30        0x4 ./Debug/video_video_record.c.o
+ .bss           0x02058a34        0x0 ./Debug/video_video_record_B.c.o
+ .bss           0x02058a34        0x0 ./Debug/image_image_decode.c.o
+ .bss           0x02058a34        0x0 ./Debug/image_image_encode.c.o
+ .bss           0x02058a34        0x0 ./Debug/wav_alaw.c.o
+ .bss           0x02058a34        0x0 ./Debug/wav_imaadpcm.c.o
+ .bss           0x02058a34        0x0 ./Debug/wav_pcm.c.o
+ .bss           0x02058a34        0x0 ./Debug/wav_ulaw.c.o
+ .bss           0x02058a34       0xcc ./Debug/wav_wav.c.o
+ .bss           0x02058b00        0x0 ./Debug/stream_stream.c.o
+ .bss           0x02058b00       0x20 ./Debug/uartcom_uartcom.c.o
+ .bss           0x02058b20        0x0 ./Debug/uartcom_uartCrc.c.o
+ .bss           0x02058b20        0x0 ./Debug/gsensor_G_gma301.c.o
+ .bss           0x02058b20        0x0 ./Debug/gsensor_gsensor.c.o
+ .bss           0x02058b20        0x0 ./Debug/gsensor_G_sc7a30e.c.o
+ .bss           0x02058b20        0x0 ./Debug/gsensor_g_da380.c.o
+ .bss           0x02058b20     0x1040 ./Debug/cmos_sensor_cmos_sensor.c.o
+                0x02058b20                cmos_sensor_id
+                0x02058b24                devSensorInit
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_BF3a03.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_BF2013.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_BF3016.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_BF3703.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_GC0307.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_GC0308.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_GC0309.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_GC0328.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_GC1004.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_H42.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_H7640.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_HM1055.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_IT03A1.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_NT99141.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_NT99142.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_OV7670.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_OV7725.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_OV9710.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_OV9732.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_SC1045.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_SIV100B.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_SIV120B.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_SIV121DS.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_SP1409.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_H62.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_GC1034.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_OV7736.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_SP140A.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_GC1054.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_GC1064.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_H65.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_SC1243.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SNESOR_FPX1002.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_H63P.c.o
+ .bss           0x02059b60        0x0 ./Debug/cmos_sensor_SENSOR_BF20A6.c.o
+ .bss           0x02059b60        0x0 ./Debug/tft_lcd_lcd_mcu_st7789.c.o
+ .bss           0x02059b60        0x0 ./Debug/tft_lcd_lcd_rgb_jl_lcd.c.o
+ .bss           0x02059b60        0x0 ./Debug/tft_lcd_lcd_rgb_st7282.c.o
+ .bss           0x02059b60        0x0 ./Debug/tft_lcd_tft_lcd.c.o
+ .bss           0x02059b60        0x0 ./Debug/tft_lcd_lcd_mcu_5420.c.o
+ .bss           0x02059b60        0x0 ./Debug/tft_lcd_lcd_mcu_r61509v.c.o
+ .bss           0x02059b60        0x0 ./Debug/tft_lcd_lcd_rgb_ili8961.c.o
+ .bss           0x02059b60        0x0 ./Debug/tft_lcd_lcd_rgb_ili9342c.c.o
+ .bss           0x02059b60        0x0 ./Debug/tft_lcd_lcd_mcu_ili9328.c.o
+ .bss           0x02059b60        0x0 ./Debug/tft_lcd_lcd_mcu_hx8352b.c.o
+ .bss           0x02059b60        0x0 ./Debug/tft_lcd_lcd_mcu_st7789v.c.o
+ .bss           0x02059b60        0x0 ./Debug/tft_lcd_lcd_mcu_hx8352c.c.o
+ .bss           0x02059b60        0x0 ./Debug/tft_lcd_lcd_mcu_hx8357b.c.o
+ .bss           0x02059b60        0x0 ./Debug/tft_lcd_lcd_rgb_ili9806e.c.o
+ .bss           0x02059b60        0x0 ./Debug/tft_lcd_lcd_rgb_ota5182.c.o
+ .bss           0x02059b60        0x0 ./Debug/tft_lcd_lcd_rgb_st7701.c.o
+ .bss           0x02059b60        0x0 ./Debug/tft_lcd_lcd_mcu_lgdp4532.c.o
+ .bss           0x02059b60        0x0 ./Debug/tft_lcd_lcd_mcu_9225G.c.o
+ .bss           0x02059b60        0x0 ./Debug/usensor_237a_1.c.o
+ .bss           0x02059b60        0x0 ./Debug/usensor_usensor.c.o
+ .bss           0x02059b60        0x0 ./Debug/usensor_237a_2.c.o
+ .bss           0x02059b60       0x18 ./Debug/nvfs_nvfs.c.o
+ .bss           0x02059b78        0x0 ./Debug/res_ascii.c.o
+ .bss           0x02059b78        0x0 ./Debug/res_ascii_default.c.o
+ .bss           0x02059b78        0x0 ./Debug/res_ascii_default_draw.c.o
+ .bss           0x02059b78        0x0 ./Debug/res_ascii_num2.c.o
+ .bss           0x02059b78        0x0 ./Debug/res_ascii_num2_draw.c.o
+ .bss           0x02059b78        0x0 ./Debug/res_ascii_num3.c.o
+ .bss           0x02059b78        0x0 ./Debug/res_ascii_num3_draw.c.o
+ .bss           0x02059b78        0x0 ./Debug/res_ascii_num4.c.o
+ .bss           0x02059b78        0x0 ./Debug/res_ascii_num4_draw.c.o
+ .bss           0x02059b78        0x0 ./Debug/res_R.c.o
+ .bss           0x02059b78       0x68 ../bwlib\libavi.a(aviEncoder.o)
+ .bss           0x02059be0        0x0 ../bwlib\libavi.a(encoder_std.o)
+ .bss           0x02059be0        0x0 ../bwlib\libavi.a(encoder_odml.o)
+ .bss           0x02059be0      0x920 ../bwlib\libfs.a(fs.o)
+ .bss           0x0205a500        0x0 ../bwlib\libfs.a(diskio.o)
+ .bss           0x0205a500        0x0 ../bwlib\libfs.a(link_ext.o)
+ .bss           0x0205a500      0x46c ../bwlib\libfs.a(ff.o)
+ .bss           0x0205a96c        0x0 ../bwlib\libfs.a(ffunicode.o)
+ .bss           0x0205a96c        0x0 ../bwlib\libsd.a(ax32xx_sd.o)
+ .bss           0x0205a96c        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-memcmp.o)
+ .bss           0x0205a96c        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-memcpy.o)
+ .bss           0x0205a96c        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-memset.o)
+ .bss           0x0205a96c        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strcat.o)
+ .bss           0x0205a96c        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strchr.o)
+ .bss           0x0205a96c        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strcmp.o)
+ .bss           0x0205a96c        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strcpy.o)
+ .bss           0x0205a96c        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strlen.o)
+ .bss           0x0205a96c        0x0 C:/MinGW-4.7.1/or1k-elf/lib/no-delay\libc.a(lib_a-strncmp.o)
+ .bss           0x0205a96c        0x0 C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a(_udivdi3.o)
+ .bss           0x0205a96c        0x0 C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a(__udivsi3.o)
+ .bss           0x0205a96c        0x0 C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a(__umodsi3.o)
+ .bss           0x0205a96c        0x0 C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a(_clz.o)
  *(COMMON)
- COMMON         0x0205a9ec     0x81c4 ./Debug/main.c.o
-                0x0205a9ec                fp11_epout_isr_hal
-                0x0205a9f0                usb_varm
-                0x0205aa0c                WAV_TYPE_E
-                0x0205aa10                SysCtrl
-                0x0205aa74                fp_epout_isr_hal
-                0x0205aa78                mediaVideoCtrlB
-                0x0205ab0c                audiobuff
-                0x02062b0c                fp_uac_unit_ctl_hal
-                0x02062b10                fp_UacHandleToStreaming
-                0x02062b14                EP0WaitForSetReqData
-                0x02062b18                mediaVideoCtrl
-                0x02062bac                CHANNEL_EXCHANGE_E
- COMMON         0x02062bb0       0x38 ./Debug/task_video_record.c.o
-                0x02062bb0                tempFileName2
-                0x02062bcc                tempFileName1
- COMMON         0x02062be8        0x1 ./Debug/xos_xos.c.o
-                0x02062be8                XOSNesting
+ COMMON         0x0205a96c     0x81c4 ./Debug/main.c.o
+                0x0205a96c                fp11_epout_isr_hal
+                0x0205a970                usb_varm
+                0x0205a98c                WAV_TYPE_E
+                0x0205a990                SysCtrl
+                0x0205a9f4                fp_epout_isr_hal
+                0x0205a9f8                mediaVideoCtrlB
+                0x0205aa8c                audiobuff
+                0x02062a8c                fp_uac_unit_ctl_hal
+                0x02062a90                fp_UacHandleToStreaming
+                0x02062a94                EP0WaitForSetReqData
+                0x02062a98                mediaVideoCtrl
+                0x02062b2c                CHANNEL_EXCHANGE_E
+ COMMON         0x02062b30       0x38 ./Debug/task_video_record.c.o
+                0x02062b30                tempFileName2
+                0x02062b4c                tempFileName1
+ COMMON         0x02062b68        0x1 ./Debug/xos_xos.c.o
+                0x02062b68                XOSNesting
+ *fill*         0x02062b69        0x3 
+ COMMON         0x02062b6c       0x74 ./Debug/multimedia_user_media.c.o
+                0x02062b6c                jpegCache
+                0x02062b70                audsIStack
+                0x02062b7c                jpegBStack
+                0x02062b84                audioCache
+                0x02062b88                aviIdx1CacheB
+                0x02062b8c                audsTStack
+                0x02062b98                vidsBStack
+                0x02062bac                jpegIStack
+                0x02062bb4                audsBStack
+                0x02062bc0                thumbnailUVBuffer
+                0x02062bc4                aviIdx1Cache
+                0x02062bc8                thumbnailYBuffer
+                0x02062bcc                vidsIStack
+ COMMON         0x02062be0        0x8 ./Debug/src_ax32xx_int.c.o
+                0x02062be0                fp_usb_isr
+                0x02062be4                fp_usb11_isr
+ COMMON         0x02062be8        0x1 ./Debug/src_ax32xx_sys.c.o
+                0x02062be8                smph_dmacopy
  *fill*         0x02062be9        0x3 
- COMMON         0x02062bec       0x74 ./Debug/multimedia_user_media.c.o
-                0x02062bec                jpegCache
-                0x02062bf0                audsIStack
-                0x02062bfc                jpegBStack
-                0x02062c04                audioCache
-                0x02062c08                aviIdx1CacheB
-                0x02062c0c                audsTStack
-                0x02062c18                vidsBStack
-                0x02062c2c                jpegIStack
-                0x02062c34                audsBStack
-                0x02062c40                thumbnailUVBuffer
-                0x02062c44                aviIdx1Cache
-                0x02062c48                thumbnailYBuffer
-                0x02062c4c                vidsIStack
- COMMON         0x02062c60        0x8 ./Debug/src_ax32xx_int.c.o
-                0x02062c60                fp_usb_isr
-                0x02062c64                fp_usb11_isr
- COMMON         0x02062c68        0x1 ./Debug/src_ax32xx_sys.c.o
-                0x02062c68                smph_dmacopy
- *fill*         0x02062c69        0x3 
- COMMON         0x02062c6c        0x4 ./Debug/src_ax32xx_wdt.c.o
-                0x02062c6c                wdt_en
- COMMON         0x02062c70       0x10 ./Debug/src_ax32xx_timer.c.o
-                0x02062c70                timerISR
- COMMON         0x02062c80        0x8 ./Debug/src_ax32xx_rtc.c.o
-                0x02062c80                rtcSecondISR
-                0x02062c84                rtcAlamISR
- *fill*         0x02062c88       0x18 
- COMMON         0x02062ca0     0x1378 ./Debug/src_ax32xx_isp.c.o
-                0x02062ca0                ispstat
-                0x02063560                isp
-                0x020635a0                using_contrast
-                0x020636a0                lsc_tab
-                0x02063b18                RGB_GMMA
-                0x02063e18                Y_GMA
- COMMON         0x02064018       0x20 ./Debug/src_ax32xx_usb.c.o
-                0x02064018                fp11_host_connect_hal
-                0x0206401c                sofcnt
-                0x02064020                fp_host_remove_hal
-                0x02064024                fp11_host_remove_hal
-                0x02064028                mscbusy
-                0x0206402c                fp_host11_remove_hal
-                0x02064030                fp_host11_connect_hal
-                0x02064034                fp_host_connect_hal
- COMMON         0x02064038        0x4 ./Debug/csi_ax32xx_csi.c.o
-                0x02064038                csifcnt
- COMMON         0x0206403c       0x68 ./Debug/mjpeg_ax32xx_mjpeg.c.o
-                0x0206403c                fp_jpegdc_ldone_hal
-                0x02064040                block_scaler_tab
-                0x020640a0                javgsize
- COMMON         0x020640a4       0x14 ./Debug/src_hal_csi.c.o
-                0x020640a4                snser
- COMMON         0x020640b8        0x4 ./Debug/src_hal_sd.c.o
-                0x020640b8                speed
- COMMON         0x020640bc     0x2004 ./Debug/src_hal_auadc.c.o
-                0x020640bc                pcm_buf
-                0x020640c0                auadcbuff
- COMMON         0x020660c0       0x10 ./Debug/isp_hal_isp.c.o
-                0x020660c0                fp_stat_isr
-                0x020660c4                fp_ae_isr
-                0x020660c8                fp_sensor_exposure
-                0x020660cc                fp_awb_isr
- COMMON         0x020660d0       0x3d ./Debug/dusb_hal_usb_dev_enum.c.o
-                0x020660d0                fp_uvc_off_hal
-                0x020660d4                fp_uvc_on_hal
-                0x020660d8                uac_onflg
-                0x020660da                usb_rqu
-                0x020660e4                fp_uac_on_hal
-                0x020660e8                usb_dev
-                0x02066104                pSetReqCallback
-                0x02066108                fp_uac_off_hal
-                0x0206610c                uvc_onflg
- *fill*         0x0206610d        0x3 
- COMMON         0x02066110       0x80 ./Debug/dusb_hal_usb_msc.c.o
-                0x02066110                scsi
-                0x02066128                fp_disk_rd
-                0x0206612c                fp_disk_cap
-                0x02066130                fp_disk_online
-                0x02066134                fp_usb_bulk_tx
-                0x02066138                fp_disk_stop
-                0x0206613c                fp_usb_bulk_rx
-                0x02066140                fp_disk_busy
-                0x02066144                fp_disk_free
-                0x02066148                fp_disk_wr
-                0x0206614c                MscCmd
- COMMON         0x02066190       0x10 ./Debug/dusb_hal_usb_uac.c.o
-                0x02066190                UacSampFreq
-                0x02066193                uaconflg
-                0x02066194                UacMuteControl
-                0x02066198                UacVolCtrlSettings
- COMMON         0x020661a0       0x18 ./Debug/dusb_hal_usb_uvc.c.o
-                0x020661a0                ptgl
-                0x020661a4                fp_usb_ep0_tx
-                0x020661a8                fp_uvc_probe_ctl_hal
-                0x020661ac                fp_uvc_unit_ctl_ex_hal
-                0x020661b0                fp_usb_iso_tx
-                0x020661b4                fp_uvc_unit_ctl_hal
- COMMON         0x020661b8       0x10 ./Debug/image_image_encode.c.o
-                0x020661b8                uart_buff_len
-                0x020661bc                pack_len
-                0x020661c0                uart_buff
-                0x020661c4                pack_total
-                0x020661c5                pack_total_len
-                0x020661c6                image_enc_stat
- *fill*         0x020661c8       0x18 
- COMMON         0x020661e0      0xcc8 ./Debug/cmos_sensor_cmos_sensor.c.o
-                0x020661e0                devSensor_Cmd
-                0x02066e60                devSensor_Ident
- COMMON         0x02066ea8       0x18 ../bwlib\libfs.a(diskio.o)
-                0x02066ea8                fp_tmnow
-                0x02066eac                fp_storage_wr
-                0x02066eb0                fp_f_write
-                0x02066eb4                fp_storage_sta
-                0x02066eb8                fp_storage_rd
-                0x02066ebc                fp_storage_init
+ COMMON         0x02062bec        0x4 ./Debug/src_ax32xx_wdt.c.o
+                0x02062bec                wdt_en
+ COMMON         0x02062bf0       0x10 ./Debug/src_ax32xx_timer.c.o
+                0x02062bf0                timerISR
+ COMMON         0x02062c00        0x8 ./Debug/src_ax32xx_rtc.c.o
+                0x02062c00                rtcSecondISR
+                0x02062c04                rtcAlamISR
+ *fill*         0x02062c08       0x18 
+ COMMON         0x02062c20     0x1378 ./Debug/src_ax32xx_isp.c.o
+                0x02062c20                ispstat
+                0x020634e0                isp
+                0x02063520                using_contrast
+                0x02063620                lsc_tab
+                0x02063a98                RGB_GMMA
+                0x02063d98                Y_GMA
+ COMMON         0x02063f98       0x20 ./Debug/src_ax32xx_usb.c.o
+                0x02063f98                fp11_host_connect_hal
+                0x02063f9c                sofcnt
+                0x02063fa0                fp_host_remove_hal
+                0x02063fa4                fp11_host_remove_hal
+                0x02063fa8                mscbusy
+                0x02063fac                fp_host11_remove_hal
+                0x02063fb0                fp_host11_connect_hal
+                0x02063fb4                fp_host_connect_hal
+ COMMON         0x02063fb8        0x4 ./Debug/csi_ax32xx_csi.c.o
+                0x02063fb8                csifcnt
+ COMMON         0x02063fbc       0x68 ./Debug/mjpeg_ax32xx_mjpeg.c.o
+                0x02063fbc                fp_jpegdc_ldone_hal
+                0x02063fc0                block_scaler_tab
+                0x02064020                javgsize
+ COMMON         0x02064024       0x14 ./Debug/src_hal_csi.c.o
+                0x02064024                snser
+ COMMON         0x02064038        0x4 ./Debug/src_hal_sd.c.o
+                0x02064038                speed
+ COMMON         0x0206403c     0x2004 ./Debug/src_hal_auadc.c.o
+                0x0206403c                pcm_buf
+                0x02064040                auadcbuff
+ COMMON         0x02066040       0x10 ./Debug/isp_hal_isp.c.o
+                0x02066040                fp_stat_isr
+                0x02066044                fp_ae_isr
+                0x02066048                fp_sensor_exposure
+                0x0206604c                fp_awb_isr
+ COMMON         0x02066050       0x3d ./Debug/dusb_hal_usb_dev_enum.c.o
+                0x02066050                fp_uvc_off_hal
+                0x02066054                fp_uvc_on_hal
+                0x02066058                uac_onflg
+                0x0206605a                usb_rqu
+                0x02066064                fp_uac_on_hal
+                0x02066068                usb_dev
+                0x02066084                pSetReqCallback
+                0x02066088                fp_uac_off_hal
+                0x0206608c                uvc_onflg
+ *fill*         0x0206608d        0x3 
+ COMMON         0x02066090       0x80 ./Debug/dusb_hal_usb_msc.c.o
+                0x02066090                scsi
+                0x020660a8                fp_disk_rd
+                0x020660ac                fp_disk_cap
+                0x020660b0                fp_disk_online
+                0x020660b4                fp_usb_bulk_tx
+                0x020660b8                fp_disk_stop
+                0x020660bc                fp_usb_bulk_rx
+                0x020660c0                fp_disk_busy
+                0x020660c4                fp_disk_free
+                0x020660c8                fp_disk_wr
+                0x020660cc                MscCmd
+ COMMON         0x02066110       0x10 ./Debug/dusb_hal_usb_uac.c.o
+                0x02066110                UacSampFreq
+                0x02066113                uaconflg
+                0x02066114                UacMuteControl
+                0x02066118                UacVolCtrlSettings
+ COMMON         0x02066120       0x18 ./Debug/dusb_hal_usb_uvc.c.o
+                0x02066120                ptgl
+                0x02066124                fp_usb_ep0_tx
+                0x02066128                fp_uvc_probe_ctl_hal
+                0x0206612c                fp_uvc_unit_ctl_ex_hal
+                0x02066130                fp_usb_iso_tx
+                0x02066134                fp_uvc_unit_ctl_hal
+ COMMON         0x02066138       0x10 ./Debug/image_image_encode.c.o
+                0x02066138                uart_buff_len
+                0x0206613c                pack_len
+                0x02066140                uart_buff
+                0x02066144                pack_total
+                0x02066145                pack_total_len
+                0x02066146                image_enc_stat
+ *fill*         0x02066148       0x18 
+ COMMON         0x02066160      0xcc8 ./Debug/cmos_sensor_cmos_sensor.c.o
+                0x02066160                devSensor_Cmd
+                0x02066de0                devSensor_Ident
+ COMMON         0x02066e28       0x18 ../bwlib\libfs.a(diskio.o)
+                0x02066e28                fp_tmnow
+                0x02066e2c                fp_storage_wr
+                0x02066e30                fp_f_write
+                0x02066e34                fp_storage_sta
+                0x02066e38                fp_storage_rd
+                0x02066e3c                fp_storage_init
  *(.buff.clmt)
  *(.big_buffer*)
  *(._urx_buf_)
- ._urx_buf_     0x02066ec0      0x23c ../bwlib\libfs.a(fs.o)
-                0x02066ec0                work_fatfs
-                0x02067100                _sdram_remian_addr = (ALIGN (0x40) + 0x0)
+ ._urx_buf_     0x02066e40      0x23c ../bwlib\libfs.a(fs.o)
+                0x02066e40                work_fatfs
+                0x02067080                _sdram_remian_addr = (ALIGN (0x40) + 0x0)
 
 .before_load    0x00002000        0x0 load address 0x00050e00
                 0x00002000                _before_load_vma = .
@@ -2762,7 +2762,7 @@ LOAD C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a
  .sensor_res.init_tab
                 0x00004404      0x150 ./Debug/cmos_sensor_SENSOR_BF20A6.c.o
 
-.eh_frame       0x00004554     0x83d8 load address 0x000555a0
+.eh_frame       0x00004554     0x83d0 load address 0x000555a0
  *(.eh_frame)
  .eh_frame      0x00004554       0x98 ./Debug/main.c.o
  .eh_frame      0x000045ec      0x43c ./Debug/resource_manager.c.o
@@ -2913,43 +2913,43 @@ LOAD C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a
                                 0x1ac (size before relaxing)
  .eh_frame      0x0000b248       0x44 ./Debug/stream_stream.c.o
                                  0x58 (size before relaxing)
- .eh_frame      0x0000b28c      0x130 ./Debug/uartcom_uartcom.c.o
-                                0x144 (size before relaxing)
- .eh_frame      0x0000b3bc       0x18 ./Debug/uartcom_uartCrc.c.o
+ .eh_frame      0x0000b28c      0x128 ./Debug/uartcom_uartcom.c.o
+                                0x13c (size before relaxing)
+ .eh_frame      0x0000b3b4       0x18 ./Debug/uartcom_uartCrc.c.o
                                  0x2c (size before relaxing)
- .eh_frame      0x0000b3d4      0x1ac ./Debug/cmos_sensor_cmos_sensor.c.o
+ .eh_frame      0x0000b3cc      0x1ac ./Debug/cmos_sensor_cmos_sensor.c.o
                                 0x1c0 (size before relaxing)
- .eh_frame      0x0000b580       0xc8 ./Debug/nvfs_nvfs.c.o
+ .eh_frame      0x0000b578       0xc8 ./Debug/nvfs_nvfs.c.o
                                  0xdc (size before relaxing)
- .eh_frame      0x0000b648       0x1c ./Debug/res_ascii.c.o
+ .eh_frame      0x0000b640       0x1c ./Debug/res_ascii.c.o
                                  0x30 (size before relaxing)
- .eh_frame      0x0000b664       0x1c ./Debug/res_ascii_default_draw.c.o
+ .eh_frame      0x0000b65c       0x1c ./Debug/res_ascii_default_draw.c.o
                                  0x30 (size before relaxing)
- .eh_frame      0x0000b680       0x1c ./Debug/res_ascii_num2_draw.c.o
+ .eh_frame      0x0000b678       0x1c ./Debug/res_ascii_num2_draw.c.o
                                  0x30 (size before relaxing)
- .eh_frame      0x0000b69c       0x1c ./Debug/res_ascii_num3_draw.c.o
+ .eh_frame      0x0000b694       0x1c ./Debug/res_ascii_num3_draw.c.o
                                  0x30 (size before relaxing)
- .eh_frame      0x0000b6b8      0x108 ./Debug/res_R.c.o
+ .eh_frame      0x0000b6b0      0x108 ./Debug/res_R.c.o
                                 0x11c (size before relaxing)
- .eh_frame      0x0000b7c0      0x154 ../bwlib\libavi.a(aviEncoder.o)
+ .eh_frame      0x0000b7b8      0x154 ../bwlib\libavi.a(aviEncoder.o)
                                 0x168 (size before relaxing)
- .eh_frame      0x0000b914       0xa4 ../bwlib\libavi.a(encoder_std.o)
+ .eh_frame      0x0000b90c       0xa4 ../bwlib\libavi.a(encoder_std.o)
                                  0xb8 (size before relaxing)
- .eh_frame      0x0000b9b8      0x13c ../bwlib\libavi.a(encoder_odml.o)
+ .eh_frame      0x0000b9b0      0x13c ../bwlib\libavi.a(encoder_odml.o)
                                 0x150 (size before relaxing)
- .eh_frame      0x0000baf4      0x228 ../bwlib\libfs.a(fs.o)
+ .eh_frame      0x0000baec      0x228 ../bwlib\libfs.a(fs.o)
                                 0x23c (size before relaxing)
- .eh_frame      0x0000bd1c       0xc0 ../bwlib\libfs.a(diskio.o)
+ .eh_frame      0x0000bd14       0xc0 ../bwlib\libfs.a(diskio.o)
                                  0xd4 (size before relaxing)
- .eh_frame      0x0000bddc       0xd8 ../bwlib\libfs.a(link_ext.o)
+ .eh_frame      0x0000bdd4       0xd8 ../bwlib\libfs.a(link_ext.o)
                                  0xec (size before relaxing)
- .eh_frame      0x0000beb4      0x890 ../bwlib\libfs.a(ff.o)
+ .eh_frame      0x0000beac      0x890 ../bwlib\libfs.a(ff.o)
                                 0x8a4 (size before relaxing)
- .eh_frame      0x0000c744       0x54 ../bwlib\libfs.a(ffunicode.o)
+ .eh_frame      0x0000c73c       0x54 ../bwlib\libfs.a(ffunicode.o)
                                  0x68 (size before relaxing)
- .eh_frame      0x0000c798      0x168 ../bwlib\libsd.a(ax32xx_sd.o)
+ .eh_frame      0x0000c790      0x168 ../bwlib\libsd.a(ax32xx_sd.o)
                                 0x17c (size before relaxing)
- .eh_frame      0x0000c900       0x2c C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a(_udivdi3.o)
+ .eh_frame      0x0000c8f8       0x2c C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a(_udivdi3.o)
                                  0x40 (size before relaxing)
                 0x00000013                _exception_len = ((SIZEOF (.exception) + 0x1ff) / 0x200)
                 0x00000001                _exception_sec = (LOADADDR (.exception) / 0x200)
@@ -2958,7 +2958,7 @@ LOAD C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a
                 0x00000000                _before_load_len = ((SIZEOF (.before_load) + 0x1ff) / 0x200)
                 0x00000287                _before_load_sec = (LOADADDR (.before_load) / 0x200)
                 0x00001400                __stack_size = 0x1400
-                0x00197b00                __sdram_remain_size = (((ORIGIN (sdram) + 0x200000) - _sdram_remian_addr) - __stack_size)
+                0x00197b80                __sdram_remain_size = (((ORIGIN (sdram) + 0x200000) - _sdram_remian_addr) - __stack_size)
                 0x00000001                ASSERT ((((ORIGIN (sdram) + 0x200000) - _sdram_remian_addr) >= __stack_size), No memroy for stack)
                 0x021fec00                __bss_end = (_sdram_remian_addr + __sdram_remain_size)
                 0x00050e00                _lcd_resource_start_addr = LOADADDR (.lcd_resource)
@@ -2968,7 +2968,7 @@ LOAD C:/MinGW-4.7.1/lib/gcc/or1k-elf/4.9.1/no-delay\libgcc.a
                 0x021ffffc                PROVIDE (__stack, ((ORIGIN (sdram) + 0x200000) - 0x4))
 OUTPUT(./Debug/ax329x_sdk.elf elf32-or1k)
 
-.rela.dyn       0x0000c92c        0x0 load address 0x0005d978
+.rela.dyn       0x0000c924        0x0 load address 0x0005d970
  .rela.vector   0x00000000        0x0 ./Debug/ax32xx_reset.S.o
  .rela.bootsec  0x00000000        0x0 ./Debug/ax32xx_reset.S.o
  .rela.text     0x00000000        0x0 ./Debug/ax32xx_reset.S.o
