@@ -74,13 +74,13 @@ void btcomCmdRsp(const u8 *data, int len, u8 pack_total, u8 pack_cur)
 {
 	const u8 *fragment[3];
 	int frag_len[3];
-	u8 header[16 + 8];
+	u8 header[24];
 	u8 tail[2];
 	u32 i, j;
 
 	int CRC_len;
 
-	CRC_len = len + 4 + 8;
+	CRC_len = (1 == pack_cur) ? len + 12 : len + 4;
 	// header
 	header[0] = 0x68;
 	header[1] = 0x10;
@@ -103,24 +103,27 @@ void btcomCmdRsp(const u8 *data, int len, u8 pack_total, u8 pack_cur)
 	header[14] = pack_total;
 	header[15] = pack_cur;
 
-	header[16] = configGet(CONFIG_ID_CENTER_X) & 0xFF;
-	header[17] = (configGet(CONFIG_ID_CENTER_X) >> 8) & 0xFF;
+	if (1 == pack_cur)
+	{
+		header[16] = configGet(CONFIG_ID_CENTER_X) & 0xFF;
+		header[17] = (configGet(CONFIG_ID_CENTER_X) >> 8) & 0xFF;
 
-	header[18] = configGet(CONFIG_ID_CENTER_Y) & 0xFF;
-	header[19] = (configGet(CONFIG_ID_CENTER_Y) >> 8) & 0xFF;
+		header[18] = configGet(CONFIG_ID_CENTER_Y) & 0xFF;
+		header[19] = (configGet(CONFIG_ID_CENTER_Y) >> 8) & 0xFF;
 
-	header[20] = configGet(CONFIG_ID_MJPEG_W) & 0xFF;
-	header[21] = (configGet(CONFIG_ID_MJPEG_W) >> 8) & 0xFF;
+		header[20] = configGet(CONFIG_ID_MJPEG_W) & 0xFF;
+		header[21] = (configGet(CONFIG_ID_MJPEG_W) >> 8) & 0xFF;
 
-	header[22] = configGet(CONFIG_ID_MJPEG_H) & 0xFF;
-	header[23] = (configGet(CONFIG_ID_MJPEG_H) >> 8) & 0xFF;
+		header[22] = configGet(CONFIG_ID_MJPEG_H) & 0xFF;
+		header[23] = (configGet(CONFIG_ID_MJPEG_H) >> 8) & 0xFF;
+	}
 
 	// tail
-	tail[0] = uartCheckSum(header + 10, 6 + 8) + uartCheckSum(data, len);
+	tail[0] = uartCheckSum(header + 10, (1 == pack_cur) ? 14 : 6) + uartCheckSum(data, len);
 	tail[1] = 0x16;
 
 	fragment[0] = header;
-	frag_len[0] = 16 + 8;
+	frag_len[0] = (1 == pack_cur) ? 24 : 16;
 	fragment[1] = data;
 	frag_len[1] = len;
 	fragment[2] = tail;

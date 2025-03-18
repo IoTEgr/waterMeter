@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session Name="C:\Users\jingcheng.huang\Desktop\firmware\ax32_platform_demo\ax329x_sdk.workspace">
+<Session Name="C:\Users\jingcheng.huang\Desktop\project\waterMeter\firmware\ax32_platform_demo\ax329x_sdk.workspace">
   <int Value="0" Name="m_selectedTab"/>
-  <wxString Value="C:\Users\jingcheng.huang\Desktop\firmware\ax32_platform_demo\ax329x_sdk.workspace" Name="m_workspaceName"/>
+  <wxString Value="C:\Users\jingcheng.huang\Desktop\project\waterMeter\firmware\ax32_platform_demo\ax329x_sdk.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="C:\Users\jingcheng.huang\Desktop\firmware\multimedia\uartcom\uartcom.c" Name="FileName"/>
-      <int Value="80" Name="FirstVisibleLine"/>
+      <wxString Value="C:\Users\jingcheng.huang\Desktop\project\waterMeter\firmware\multimedia\uartcom\uartcom.c" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
       <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
